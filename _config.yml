@@ -54,7 +54,7 @@ footer:
 #theme: minima
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: neon
-repository: timecrash/relative_absolutes
+repository: Timecrash/relative_absolutes
 permalink: /:categories/:title/
 timezone: America/New_York
 search: true
