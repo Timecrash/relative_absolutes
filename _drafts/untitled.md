@@ -1,10 +1,7 @@
 ---
-layout: post
+
 status: draft
-author: Matt
-author_login: matt
-author_email: maserspark@protonmail.com
-author_url: http://mattvelez.net
+
 wordpress_id: 2043
 wordpress_url: https://mattvelez.net/?p=2043
 date: '2022-02-03 06:59:53 -0500'

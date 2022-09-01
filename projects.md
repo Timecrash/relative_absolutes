@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 status: publish
 published: true
 title: Projects

@@ -1,11 +1,8 @@
 ---
-layout: post
+
 status: draft
 title: Modern social thought vs. historical technology
-author: Matt
-author_login: matt
-author_email: maserspark@protonmail.com
-author_url: http://mattvelez.net
+
 wordpress_id: 863
 wordpress_url: http://mattvelez.net/?p=863
 date: '2015-12-24 12:53:29 -0500'
