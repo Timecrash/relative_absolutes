@@ -31,11 +31,14 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/timecrash"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/maserspark"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/timecrash"
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Matt Velez, a writer currently living in the suburbs of Philadelphia.
+  I'm Matt Velez, a writer currently living in the Philadelphia suburbs.
   Back in 2012, I figured out writing was a heck of a lot more fun than everyone let on, and I’ve been doing it ever since.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mattvelez.net" # the base hostname & protocol for your site, e.g. http://example.com
@@ -46,6 +49,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/timecrash"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/maserspark"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/timecrash"
