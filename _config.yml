@@ -78,7 +78,6 @@ whitelist:
   - jekyll-include-cache
 include: 
   - CNAME
-  - assets/images
 
 defaults:
   # _posts
