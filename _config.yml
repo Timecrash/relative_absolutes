@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+locale: "en-US"
 title: Relative Absolutes
 author:
   name: Matt Velez
@@ -53,8 +55,19 @@ footer:
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: neon
 repository: timecrash/relative_absolutes
+permalink: /:categories/:title/
+timezone: America/New_York
+search: true
 plugins:
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
+whitelist:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 defaults:
   # _posts
@@ -64,27 +77,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
       show_date: true
       share: true
       related: true
       classes: wide
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
