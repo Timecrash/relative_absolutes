@@ -76,6 +76,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+include: [CNAME]
 
 defaults:
   # _posts
