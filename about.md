@@ -1,12 +1,14 @@
 ---
 layout: single
+author_profile: true
+read_time: true
+show_date: true
+share: true
+related: true
+classes: wide
 status: publish
 published: true
 title: About
-author: Matt
-author_login: matt
-author_email: maserspark@protonmail.com
-author_url: http://mattvelez.net
 wordpress_id: 6
 wordpress_url: http://mattvelezdotnet.wordpress.com/?page_id=1
 date: '2015-11-05 14:57:27 -0500'
