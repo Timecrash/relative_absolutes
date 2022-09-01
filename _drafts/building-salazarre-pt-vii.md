@@ -18,6 +18,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>[Structure of the country, stratocratic caliphate]</p>
-<p>[Run through of the five protectorates]</p>
-<p>[Bit about how the <em>harbani</em> fit into it all]</p>
+[Structure of the country, stratocratic caliphate]
+
+[Run through of the five protectorates]
+
+[Bit about how the harbani fit into it all]

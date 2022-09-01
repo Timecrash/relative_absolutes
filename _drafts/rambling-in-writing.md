@@ -18,4 +18,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>[Examples of editing my work, specifically WatS]</p>
+[Examples of editing my work, specifically WatS]

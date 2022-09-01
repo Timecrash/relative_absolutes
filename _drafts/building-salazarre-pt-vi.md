@@ -21,7 +21,4 @@ tags:
 - writing
 comments: []
 ---
-<p><em>Header image via <a href="http://morguefile.com/p/976469" target="_blank" rel="noopener noreferrer">Morguefile</a>.</em></p>
-<p>I love that image. That snake looked like someone just mortally offended it and it's unsure whether it should just snap a quick reply or really bring out the thunder and poison the guy.</p>
-<p>&nbsp;</p>
-<p>[The one about lamia]</p>
+[The one about lamia]

@@ -18,6 +18,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>[Magic allows a setting with classical/medieval/Renaissance/Victorian technology and aesthetics, but modern social interactions and philosophical thought]</p>
-<p>[Magic of a sufficient degree allows technology to remain stagnant, since we don't need to advance it to better the quality of life, when magic does that for us]</p>
-<p>[The conversations Shayne and I had about it]</p>
+[Magic allows a setting with classical/medieval/Renaissance/Victorian technology and aesthetics, but modern social interactions and philosophical thought]
+
+[Magic of a sufficient degree allows technology to remain stagnant, since we don't need to advance it to better the quality of life, when magic does that for us]
+
+[The conversations Shayne and I had about it]
