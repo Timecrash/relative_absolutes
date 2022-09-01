@@ -2,11 +2,7 @@
 layout: post
 status: draft
 title: Rambling in Writing
-author:
-  display_name: matt
-  login: matt
-  email: maserspark@protonmail.com
-  url: http://mattvelez.net
+author: Matt
 author_login: matt
 author_email: maserspark@protonmail.com
 author_url: http://mattvelez.net
