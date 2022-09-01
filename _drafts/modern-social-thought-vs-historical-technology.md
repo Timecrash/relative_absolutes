@@ -1,0 +1,23 @@
+---
+layout: post
+status: draft
+title: Modern social thought vs. historical technology
+author:
+  display_name: matt
+  login: matt
+  email: maserspark@protonmail.com
+  url: http://mattvelez.net
+author_login: matt
+author_email: maserspark@protonmail.com
+author_url: http://mattvelez.net
+wordpress_id: 863
+wordpress_url: http://mattvelez.net/?p=863
+date: '2015-12-24 12:53:29 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>[Magic allows a setting with classical/medieval/Renaissance/Victorian technology and aesthetics, but modern social interactions and philosophical thought]</p>
+<p>[Magic of a sufficient degree allows technology to remain stagnant, since we don't need to advance it to better the quality of life, when magic does that for us]</p>
+<p>[The conversations Shayne and I had about it]</p>
