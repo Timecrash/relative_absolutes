@@ -52,18 +52,20 @@ footer:
 
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: neon
 repository: Timecrash/relative_absolutes
 permalink: /:categories/:title/
 timezone: America/New_York
 search: true
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
 whitelist:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
