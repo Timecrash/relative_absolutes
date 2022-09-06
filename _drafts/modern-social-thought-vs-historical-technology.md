@@ -1,10 +1,6 @@
 ---
-
 status: draft
 title: Modern social thought vs. historical technology
-
-wordpress_id: 863
-wordpress_url: http://mattvelez.net/?p=863
 date: '2015-12-24 12:53:29 -0500'
 categories:
 - Uncategorized

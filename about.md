@@ -1,18 +1,10 @@
 ---
 layout: single
 author_profile: true
-read_time: true
-show_date: true
-share: true
-related: true
 classes: wide
 status: publish
 published: true
 title: About
-wordpress_id: 6
-wordpress_url: http://mattvelezdotnet.wordpress.com/?page_id=1
-date: '2015-11-05 14:57:27 -0500'
-date_gmt: '2015-11-05 14:57:27 -0500'
 categories: []
 tags: []
 comments: []

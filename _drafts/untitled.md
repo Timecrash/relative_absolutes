@@ -1,9 +1,5 @@
 ---
-
 status: draft
-
-wordpress_id: 2043
-wordpress_url: https://mattvelez.net/?p=2043
 date: '2022-02-03 06:59:53 -0500'
 date_gmt: '2022-02-03 11:59:53 -0500'
 categories:

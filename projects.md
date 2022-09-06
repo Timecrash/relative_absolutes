@@ -1,18 +1,10 @@
 ---
 layout: single
 author_profile: true
-read_time: true
-show_date: true
-share: true
-related: true
 classes: wide
 status: publish
 published: true
 title: Projects
-wordpress_id: 17
-wordpress_url: http://mattvelez.net/?page_id=17
-date: '2015-11-05 17:58:51 -0500'
-date_gmt: '2015-11-05 17:58:51 -0500'
 categories: []
 tags: []
 comments: []
@@ -43,4 +35,4 @@ So far I have one story out for beta readers, but I don't know if I'll wind up t
 
 This list is likely to change at any time, and I expect I'll make a blog post discussing what I'm changing, when I do.
 
-Last updated: March 13, 2019.
+*Last updated: March 13, 2019*.

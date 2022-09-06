@@ -1,10 +1,6 @@
 ---
-
 status: draft
 title: Building Salazarre, pt. VII
-
-wordpress_id: 1742
-wordpress_url: http://mattvelez.net/?p=1742
 date: '2016-05-26 13:49:26 -0400'
 categories:
 - Uncategorized
