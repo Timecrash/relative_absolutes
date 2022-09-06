@@ -1,4 +1,4 @@
-# relative_absolutes
+# Relative Absolutes
 
 Formerly a [WordPress](https://wordpress.org/) blog, now powered by [Jekyll](https://jekyllrb.com/).
 
