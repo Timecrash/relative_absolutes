@@ -10,6 +10,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/timecrash"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://wandering.shop/@timecrash"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/maserspark"
@@ -27,6 +30,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/timecrash"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://wandering.shop/@timecrash"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/maserspark"
@@ -42,6 +48,7 @@ repository: Timecrash/relative_absolutes
 permalink: /:categories/:title
 timezone: America/New_York
 search: true
+breadcrumbs: true
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
@@ -56,6 +63,8 @@ whitelist:
   - jekyll-include-cache
 include:
   - CNAME
+twitter:
+  username: "timecrash"
 
 defaults:
   # _posts
