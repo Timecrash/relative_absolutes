@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://mattvelez.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mattvelez.net/" rel="alternate" type="text/html" /><updated>2022-12-20T15:48:59-05:00</updated><id>https://mattvelez.net/feed.xml</id><title type="html">Relative Absolutes</title><subtitle>I'm Matt Velez, a writer currently living in the Philadelphia suburbs. Back in 2012, I figured out writing was a heck of a lot more fun than everyone let on, and I've been doing it ever since.</subtitle><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><entry><title type="html">Playing with NovelAI</title><link href="https://mattvelez.net/general/playing-with-novelai" rel="alternate" type="text/html" title="Playing with NovelAI" /><published>2022-12-20T00:00:00-05:00</published><updated>2022-12-20T00:00:00-05:00</updated><id>https://mattvelez.net/general/playing-with-novelai</id><content type="html" xml:base="https://mattvelez.net/general/playing-with-novelai">&lt;p&gt;&lt;strong&gt;NovelAI art is not a replacement for real artistic effort. Please support artists through commissioning them and boosting them when you can.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a bit of a popular topic these days, and one that until today, I didn’t look into much apart from vague distaste. I decided to play around with &lt;a href=&quot;https://novelai.net/image&quot;&gt;NovelAI’s image generation&lt;/a&gt; this morning to get to know more about it. I have some thoughts. My usual instinct favors a Twitter/Mastodon thread, but I think I should give this blog some love. I also don’t want to imply this is going to cover every possible talking point or moral stance, it’s just an off-the-cuff post based on a couple hours of experience.&lt;/p&gt;
+
+&lt;p&gt;First and foremost, I side with artists on this. I &lt;em&gt;deeply&lt;/em&gt; respect and admire those who put hours, months, years of their lives onto their craft, constantly improving and expressing themselves. I do not for a moment think AI art could, or &lt;em&gt;should&lt;/em&gt; replace them. I’ve been grateful to know many artists in my life, my girlfriend is one, and I’ve tried my hand at learning a couple times. It requires dedication, discipline, and a degree of earnestness common to any creative endeavor.&lt;/p&gt;
+
+&lt;p&gt;That we have AI art this detailed and clean is an achievement of design and programming. I’m not denying that. The final pieces look pretty good! But these images are based off innumerable pieces of anime art harvested across the internet, and I imagine they weren’t given with the artist’s consent. That’s fucked up, and I don’t want to support continued development of these AI tools with these ethical considerations. I’ve thrown $10 into NovelAI to see how it worked. I don’t anticipate giving them more.&lt;/p&gt;
+
+&lt;p&gt;A friend of mine discussed this in a Discord server, and she talked about how smugly malicious people can be toward artists, and how AI art should put them out of work. &lt;em&gt;Fuck no&lt;/em&gt;. The pieces I generated, which I’ll show off throughout this post, look fine for my limited purposes, but they &lt;em&gt;categorically&lt;/em&gt; pale in comparison to human effort. I want to continue commissioning artists to draw my characters, and all I want to use AI art for, all I think it &lt;em&gt;should&lt;/em&gt; be used for, is &lt;strong&gt;to help spark inspiration for human artists&lt;/strong&gt;. That’s it. They aren’t real work in and of themselves. They don’t replace years of effort.&lt;/p&gt;
+
+&lt;p&gt;That out of the way, let me talk about my experience.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I decided to generate art of an elven self-insert of mine, Safira. I’ve semi-jokingly called her my elfsona to a couple people, but that’s essentially what she is: an idealized fantasy of myself.&lt;/p&gt;
+
+&lt;p&gt;On a related note, I’ve recently come out as a transwoman. Go figure.&lt;/p&gt;
+
+&lt;p&gt;(I can do a whole separate post about her, but I don’t have a backstory or personality. She exists in a high fantasy setting of mine as a crystal/stellar mage. I’ve statted her up as an Astral Elf Abjuration Wizard in D&amp;amp;D 5E, if that helps)&lt;/p&gt;
+
+&lt;p&gt;I originally came up with a design in 2021, with an artist friend of mine I’ve known for over a decade (please &lt;a href=&quot;https://karla-talisayan.com/&quot;&gt;check her work out&lt;/a&gt;, she’s one of the best artists I know). This took place over a few sessions, as I tried to come up with a design in real time, based off a few vague ideas. It came out pretty well! I wanted to use it as a base for further commissions (and also for vtubing, which I lost interest in, thankfully &lt;em&gt;before&lt;/em&gt; I bought any expensive equipment/a Live2D avatar). But, I haven’t done much with it, and figured it’d be a good experiment to use for NovelAI.&lt;/p&gt;
+
+&lt;p&gt;(I don’t intend to post it here, as I certainly don’t want it to be used as AI art fodder if this blog ends up getting scraped)&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/2022/12/safira1.png&quot; alt=&quot;Waist-up picture of the elven character Safira.&quot; /&gt;&lt;figcaption&gt;
+      One of the first images I generated of Safira, before I though to add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;full body&lt;/code&gt; tag.
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you haven’t used it before, they first have you pay a monthly sub (the lowest is US$10 a month), which gives you 1000 credits (called ‘Anlas’ because of course it is). Each piece of AI art costs about 5 credits, with the price increasing depending on the complexity of the image. I set the AI to generate a tall portrait (512 x 1024), which cost 6 Anlas.&lt;/p&gt;
+
+&lt;p&gt;You then fill out a query string of comma-separated tags, which inform the AI as to the kind of character you want. There are other settings you can tweak, as well as tweaking the final image, but I didn’t bother with those. You can also spend ~24 Anlas to generate variants of an image, which yielded some interesting results. I didn’t keep examples, however.&lt;/p&gt;
+
+&lt;p&gt;The query string took a few tries to get right, but I found it was best to be as specific as possible. Every little thing I could think to put into the query helped with the final image. This is what I ended up with (in no particular order):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csv&quot;&gt;blue dress,gradient hair,purple hair,elf,dark skin,halter top,purple eyes,long hair,full body,over knee tights,long dress,mary janes,gold trim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And here’s how it turned out:&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/2022/12/safira3.png&quot;&gt;
+          &lt;img src=&quot;/assets/images/2022/12/safira3.png&quot; alt=&quot;AI image of Safira, stepping forward.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/2022/12/safira2.png&quot;&gt;
+          &lt;img src=&quot;/assets/images/2022/12/safira2.png&quot; alt=&quot;AI image of Safira, clutching her arm.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/2022/12/safira4.png&quot;&gt;
+          &lt;img src=&quot;/assets/images/2022/12/safira4.png&quot; alt=&quot;AI image of Safira, sitting down.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Examples of Safira generated by NovelAI.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;I think they look pretty good for something generated in a few seconds. I don’t think these constitute the ‘real’ version of the character. They’re variations on a theme, put together by a blind, dumb machine. I could probably get even more granular, but I don’t much see the point.&lt;/p&gt;
+
+&lt;p&gt;You’ll note the lack of backgrounds (save one image, further down). I’m sure I could try to have NovelAI generate them, but again, I don’t see the point. The more tags I add, the muddier the end result become. There’s definitely a sweet spot I think I’ve hit with Safira where I can reliably generate usable images. I’ll mention this again later, but sometimes NovelAI ignores some tags. I imagine Safira wearing tights on her arms (there’s a name for these, I don’t recall it), but I wasn’t able to get images with those.&lt;/p&gt;
+
+&lt;p&gt;There’s a few clear traits here (long blue dress with gold trim, elf ears, purple hair and eyes, dark skin, tights, Mary Janes), but they’re just basic, without personality or flair. Sure, I can have the AI generate images of her in different clothes or a different hairstyle, but it’s essentially a novelty.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/2022/12/safiramaid.png&quot; alt=&quot;AI image of Safira, wearing a maid dress.&quot; /&gt;&lt;figcaption&gt;
+      You know I had to do it (maid cosplay) to ‘em (her).
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;There isn’t a unified look to these; none have a noticable style. They’re about as bland and vapid as character art can be. There isn’t any soul in these, whereas my favorite artists have a strong sense of style. I can identify their work at a glance. Each one brims with effort and personality.&lt;/p&gt;
+
+&lt;p&gt;To use my friend Karla as an example, her art is lush and complex, with lovely shadows and detailing. I’ve seen her work improve over the 14 years I’ve known her, and I can that progression clearly with older pieces I have from when we first met.&lt;/p&gt;
+
+&lt;p&gt;Another example is my favorite Japanese artist, &lt;a href=&quot;https://www.pixiv.net/en/users/4007933&quot;&gt;lansane&lt;/a&gt;. The work they put into designing so-called monstergirls is fascinating, and each one overflows with personality, particularly their poses and facial expressions. I’m excited to see each new work, all expressions of their creativity.&lt;/p&gt;
+
+&lt;p&gt;I don’t think this is something AI art could ever accomplish. It can’t make those human decisions into lines, character details, poses. It can only copy what already exists.&lt;/p&gt;
+
+&lt;p&gt;Maybe we’ll get to a point where an AI can make more original work, but after a certain point, I feel as if it’d become another artist, having become self-aware through increasingly complex programming and thought processes. Its creativity is increasingly indistinguishable from a human’s, but should exist alongside them, not replacing them.&lt;/p&gt;
+
+&lt;p&gt;That’s an entirely different discussion, however.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/2022/12/safira5.png&quot; title=&quot;That golen hem on the bottom really restricts her legs, doesn't it?&quot;&gt;
+          &lt;img src=&quot;/assets/images/2022/12/safira5.png&quot; alt=&quot;AI image of Safira, wearing a shorter dress.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/2022/12/safira6.png&quot; title=&quot;The tights aren't black, and what the fuck is wrong with her hands?&quot;&gt;
+          &lt;img src=&quot;/assets/images/2022/12/safira6.png&quot; alt=&quot;AI image of Safira, clutching her hands over her chest.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/2022/12/safira7.png&quot; title=&quot;I have no fucking idea how NovelAI came up with three legs.&quot;&gt;
+          &lt;img src=&quot;/assets/images/2022/12/safira7.png&quot; alt=&quot;AI image of Safira, with three legs.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Other examples of Safira generated by NovelAI.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;What AI art does, what I think it’s best for, is provide examples of what Safira &lt;em&gt;could&lt;/em&gt; look like. It’s a jumping off point, like a writing prompt. Something quick to give the artist an idea of how to draw her hair, her dress, her pose.&lt;/p&gt;
+
+&lt;p&gt;Eventually, I’d like to build up a body of commissions to fully nail her design down. I want to support as many artist as I can, while also feeling the affirmation of seeing this idealized self depicted in a variety of artistic styles. AI art can help, but eventually I think I’d like to fill my Imgur reference folder with other commissions. Other examples of what this character looks like, with a finalized design (and maybe even a reference sheet).&lt;/p&gt;
+
+&lt;p&gt;Obviously, every artist is going to want to put their own spin on the character, and I think AI art can help inspire little touches like that. But they’re too bland to be representative of how I think of the character.&lt;/p&gt;
+
+&lt;p&gt;I’m pleased with these results, but I more look forward to using them to help craft a better-realized character. They aren’t a complete solution, merely a tool.&lt;/p&gt;
+
+&lt;p&gt;Safira, however, is a pretty simple character design. I tried another character with a more complex design (one I don’t have art of, just a relatively detailed list of traits), and NovelAI didn’t generate anything I liked. I tried to be relatively granular, but I found it ignored a number of tags: the character has a red dress with a brown vest over it, but NovelAI kept ignoring the vest and only did a red dress. So, like I’ve said before, it’s good for very broad strokes of character design based of a few simple traits, but is no replacement for human creativity.&lt;/p&gt;
+
+&lt;p&gt;A final note: I haven’t used NovelAI’s other main focus, AI-generated writing. There’s maybe a use-case there, but I don’t see myself needing it and aren’t interested in playing around with it.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="General" /><category term="general" /><category term="musing" /><summary type="html">Musings on AI art.</summary></entry><entry><title type="html">An Update</title><link href="https://mattvelez.net/general/an-update" rel="alternate" type="text/html" title="An Update" /><published>2022-09-01T00:00:00-04:00</published><updated>2022-09-01T00:00:00-04:00</updated><id>https://mattvelez.net/general/an-update</id><content type="html" xml:base="https://mattvelez.net/general/an-update">&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/2022/09/DSC0086.jpg&quot; alt=&quot;Trees in a nature preserve.&quot; /&gt;&lt;figcaption&gt;
+      A view from the nature preserve near me, taken by my then-new Nikon D5600.
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Hi.&lt;/p&gt;
+
+&lt;p&gt;You’ll notice the site looks a bit different, if you’ve ever read it prior to today (September 1, 2022).&lt;/p&gt;
+
+&lt;p&gt;Back in 2020 or so, I decided to move my WordPress blog off of a hosted architecture and onto my NAS, where I didn’t have to worry about paying to keep it up (not that I was paying much). I went through a lot of back and forth setting it up and maintaining it, but it was up and stable for a while.&lt;/p&gt;
+
+&lt;p&gt;A couple days ago, I had to restart said NAS since it had apparently frozen and become unresponsive. This, plus having to change the site’s DNS entry because my ISP randomly changed my IP address, meant the site was in a bad state, and I just didn’t feel like dealing with fixing it.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using &lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;Markdown&lt;/a&gt; for a few years now, especially in my writing. It’s a really simple, easy to use way to format text, and I find it very elegant. Everything makes sense, and the rich text formatting is very unobtrusive. I’ve mostly switched to Markdown editors for my writing (which has been its own journey, let me tell you), though I still use Scrivener for novels. Even so, I’ve been thinking of ditching it for something like &lt;a href=&quot;https://github.com/prosegrinder/pandoc-templates&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I had an idea to convert this blog to something I didn’t have to host on my NAS, ideally &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; so I wouldn’t have to deal with hosting it myself (and could do fancy things with GitHub Actions). I also liked the idea of using Git to keep a log of every change I made to the site, in case I wanted to recover an earlier version of a post. I feel like Git should be used more in writing, not just programming, but I’m too lazy to figure out how I’d want to use it.&lt;/p&gt;
+
+&lt;p&gt;Anyway, after some Googling, I found &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and it seemed simple to set up, as well as letting my easily export my WordPress blog. Took a lot of finagling (mainly just getting the thing to connect to MariaDB, plus figuring the theme out) but you can see the results. I think it looks neat!&lt;/p&gt;
+
+&lt;p&gt;So here we are. I admit I’m mainly writing this to test more of the automation, since a previous commit screwed up the custom domain naming. But I guess I can write some miscellany here.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I haven’t been doing all that much writing lately. It’s been a struggle to stay writing for years now, which COVID made that much worse. I’ve barely written all year, and it’s been a downer.&lt;/p&gt;
+
+&lt;p&gt;A couple days ago, my therapist and I were talking, and we had the idea of trying to write in the early morning, before I started working. This was impossible when I still worked in an office, I just lost too much time in the commute, but it’s pretty feasible now that I’m permanently remote. I always tended to start work an hour or so early, I was always up then, but now I can spend it doing something more enjoyable.&lt;/p&gt;
+
+&lt;p&gt;It’s been day two of this, and so far it’s been going well! I did have the aforementioned problem of my ISP changing my IP address, but otherwise it went fine.&lt;/p&gt;
+
+&lt;p&gt;It’s getting to be the time of year when I think most about &lt;u&gt;The Witch and the Serpent&lt;/u&gt;, and usually attempting another draft. It’ll be a decade next year since I first thought about Salazarre (though not WatS, that was 2014). I’d like to have actually completed the novel by now, but life gets in the way. It’s still kicking around in my head, and I like to think I’ll get it done eventually.&lt;/p&gt;
+
+&lt;p&gt;I do feel my writing skills and my interest in what I want to write have grown past that little story. It seems a bit quaint now, more than a bit nostalgic. I suppose it was always meant to be nostalgic, some forgotten fantasy story I wished I read when I was younger. The book’s characters still live in my head, waiting, more realized than maybe any of my others. I’ve certainly thought about them the most.&lt;/p&gt;
+
+&lt;p&gt;There are other stories I want to tell, more complex and philosophical ones. Something beyond a witch who fears her death, a lamia who fears the death of her people. But there’s still something comforting about knowing what this story is, what its meant to talk about. I think I’ve known for a while how I want to write it, I just… have to.&lt;/p&gt;
+
+&lt;p&gt;I hope one day I’ll actually get their story done, put into words, to then languish in some old and crusty bookstore somewhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It’s difficult getting people up to speed on your writing.&lt;/p&gt;
+
+&lt;p&gt;I’ve had a lot of intimate friendships over the years, including a girlfriend now. Plenty of people I’ve wanted to talk about my writing with. Ideally, this would have them actually read through the stuff I’ve written today, but I realize that’s a pretty big ask. Even just communicating the ideas, the various settings and stories I want to tell, is an ordeal.&lt;/p&gt;
+
+&lt;p&gt;I’m not friends with many of the people who were around when I first started getting serious about writing, about being creative in general. People I talked about Salazarre with, or the other settings I’ve written up in notes. They got to watch it grow from nothing, knew the contexts and characters almost as well as I did. They had their own ideas about how it looked, how it worked, how it could work, which enriched my further worldbuilding.&lt;/p&gt;
+
+&lt;p&gt;How do you summarize a decade of worldbuilding in fits and starts, the early inspirations fueling later ideas, until the setting grew from a gathering of tropes and media I liked into something (hopefully) unique? How do I summarize the dozens of notes I have in my notetaking app, or all the scattered notes I’ve written down over the years?&lt;/p&gt;
+
+&lt;p&gt;I still don’t know. People in my life now have expressed interest in listening, but it’s hard to know where to start. Sometimes I feel like I just have to monologue for an hour, summarize &lt;u&gt;The Witch and the Serpent&lt;/u&gt; and then talk about all the other things going on in Salazarre, all the little touches that make it a living, breathing world.&lt;/p&gt;
+
+&lt;p&gt;I also realize I’m only talking about Salazarre here, I have like five other settings, but it’s a running theme on this blog to just talk about that one.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I don’t know how often I’ll update this blog. It mostly depends on my moods, as well as how much of a hassle it is &lt;em&gt;to&lt;/em&gt; update with Git/GitHub. But I’ll keep it around, it’s good to have an archive of the ideas I had back in 2015-2019, when the world made a little more sense.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="General" /><category term="general" /><category term="personal" /><summary type="html">I ported the blog from WordPress to Jekyll! Also I'm writing more!</summary></entry><entry><title type="html">Thoughts on Link’s Awakening</title><link href="https://mattvelez.net/gaming/thoughts-on-links-awakening" rel="alternate" type="text/html" title="Thoughts on Link’s Awakening" /><published>2021-10-25T10:51:02-04:00</published><updated>2021-10-25T10:51:02-04:00</updated><id>https://mattvelez.net/gaming/thoughts-on-links-awakening</id><content type="html" xml:base="https://mattvelez.net/gaming/thoughts-on-links-awakening">&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I beat Link's Awakening for the first time since I was a kid, via the lovely Switch port. It's consistently been one
+  of my favorite Zelda games, with only Ocarina of Time and maybe Breath of the Wild edging it out. Suffice to say, I
+  have a lot of feelings about it. I was gonna do this as a Twitter thread, but it ended up being too long, so I might
+  as well necropost on this blog.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I also don't feel like adding screenshots to this post, it'd be a lot of work getting them off the Switch.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Finally, spoilers throughout.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:separator {&quot;className&quot;:&quot;is-style-wide&quot;} --&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;wp-block-separator is-style-wide&quot; /&gt;
+&lt;!-- /wp:separator --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I have a lot of feelings about this game. I adore it for a lot of reasons, but one of the foremost is how it frames
+  your actions in a morally ambiguous light. You are constantly told to wake the Wind Fish, this is the central axis
+  upon which the game turns, but you learn later that it will cause the island to disappear. The island, and everyone on
+  it, are part of the Wind Fish's dream, and will go away once the dream ends.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;It's a fascinating concept for a fantasy story, but all the more so because it asks the question if you want to
+  finish the quest at all. If this is as 'good' as you've been led to believe this is. You can't leave the island
+  without waking the Wind Fish! Plus it's having a nightmare and that's why all the monsters are here, but... you still
+  have the two villages and all the other people. They go away when the Wind Fish wakes. Is it worth their disappearance
+  for Link to return to Hyrule? The nightmares only care to conquer this little island of the dream, and don't seem to
+  affect the wider world.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Now, I'm pretty sure these villagers aren't meant to be 'real' people, they're impressions created by the Wind Fish,
+  and all repeat a few simple lines of dialogue to you. I don't know if this is meant to tell you Link recognizes these
+  are all dreamlike analogies of people, or it’s the simple necessity of running a game on the original Game Boy.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;But... Marin. This is why I love the secret ending, and restarted to make sure I got it. She has so much character
+  and vibrancy, it's clear she's... real in a way the rest of the NPCs aren't. It's heavily implied she knows the secret
+  of Koholint, and therefore dreams to be like a seagull to see the world outside the dream. Her character arc is
+  surprisingly touching and poignant, and reinforces just how meaningful this cutesy handheld game can be.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;It’s the nature of dreams to end, as the game says. Perhaps it was always fated Koholint would disappear, but it’s
+  your quest to ensure it does so as it ‘should,’ rather than the nightmare destroying it. These people should fade away
+  peacefully, not be slaughtered by monsters.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Zelda is not a series with much moral ambiguity. You're always a prophesied hero, and you're (usually) going up
+  against literal reincarnations of evil. Your actions are never really called into question. There are a few questlines
+  across the games which make you wonder, but the core conceit of the games are always meant to be morally just and
+  ‘good.’&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Link's Awakening, in many ways, tries to do something different, and I have always hailed it as one of the best
+  Zeldas for that. It astonishes me they managed this on the GB, for how complex and intricate it is. Even the dialogue,
+  sparse as it is, does so much for adding character. The game stays with you after you're done, and makes you wonder if
+  what you did was right.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I love questions of moral perspective and relativity like this, perhaps why I'm so enamored with Yoko Taro's work. I
+  don't believe Link's Awakening sets out to push this question as a central theme to the game; none of the villager
+  dialogue changes after you learn they'll disappear when the Wind Fish wakes up. It's only mentioned in the Ancient
+  Ruins, by the owl, by a couple bosses before and after you fight them. It adds a bit of narrative depth which the rest
+  of the game doesn't really engage with. I don't believe it needs to, I think this works much better for the player to
+  muse about as they finish the game.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;As an aside, I do feel modern games, and modern media in general, spend far too much effort telling you what to
+  think, what messages to take away, rather than letting you figure it out yourself or with your friends. Ambiguity is a
+  good thing, and makes media so much more interesting and engaging vs. having you turn your brain off for however long
+  and being told what you should think about it. I have so much more of a personal relationship with Link's Awakening
+  &lt;em&gt;because&lt;/em&gt; of these questions, and these personal relationships with media are a good thing. They're what media
+  consumption are all about, I think.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Later, when you return to Marin at the end of the game, she says she's been praying to the Wind Fish for... what? The
+  game never says. Does she just want Link to kiss her? Does she want him to succeed on his quest? Or, like she said
+  earlier, does she want to be like a seagull, and does she want to explore the outer world with him?&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I personally think it's the last one, she's praying not to disappear when the Wind Fish wakes. And, like the
+  benevolent-if-absent god it is, it grants this wish because Marin was the only person on the island who knew she was a
+  dream, and didn't want to remain one.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Marin might be one of my favorite characters in Zelda, now that I think about it.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;People always say Majora's Mask is the darkest game in the series, and yeah it still probably earns that title, but
+  the connotations of Link's Awakening's core quest is IMO far more interesting than 'stop creepy moon from falling.'
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I’m not very knowledgeable in literary analysis, it’s something I squandered in my college education and I’m trying
+  to pick up what I can nowadays. You could write essays picking this game's themes apart, and I’m absolutely sure they
+  exist by now. These are just my thoughts about a game I’ve loved since I was a kid.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;After teaching you the Ballad of the Wind Fish on your ocarina, Marin says,&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:quote --&gt;
+&lt;/p&gt;
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;
+  &lt;p&gt;Please, don't ever forget this song…or me…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;!-- /wp:quote --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Later, one of the last things she says is,&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:quote --&gt;
+&lt;/p&gt;
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;
+  &lt;p&gt;Link, someday you will leave this island… I just know it in my heart…&lt;/p&gt;
+  &lt;p&gt;…Don't ever forget me… If you do, I'll never forgive you!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;!-- /wp:quote --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I never have, and I don't think I ever will.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Gaming" /><category term="gaming" /><category term="zelda" /><summary type="html">I beat Link's Awakening for the first time since I was a kid, via the lovely Switch port. It's consistently been one of my favorite Zelda games, with only Ocarina of Time and maybe Breath of the Wild edging it out. Suffice to say, I have a lot of feelings about it. I was gonna do this as a Twitter thread, but it ended up being too long, so I might as well necropost on this blog. I also don't feel like adding screenshots to this post, it'd be a lot of work getting them off the Switch. Finally, spoilers throughout. I have a lot of feelings about this game. I adore it for a lot of reasons, but one of the foremost is how it frames your actions in a morally ambiguous light. You are constantly told to wake the Wind Fish, this is the central axis upon which the game turns, but you learn later that it will cause the island to disappear. The island, and everyone on it, are part of the Wind Fish's dream, and will go away once the dream ends. It's a fascinating concept for a fantasy story, but all the more so because it asks the question if you want to finish the quest at all. If this is as 'good' as you've been led to believe this is. You can't leave the island without waking the Wind Fish! Plus it's having a nightmare and that's why all the monsters are here, but... you still have the two villages and all the other people. They go away when the Wind Fish wakes. Is it worth their disappearance for Link to return to Hyrule? The nightmares only care to conquer this little island of the dream, and don't seem to affect the wider world. Now, I'm pretty sure these villagers aren't meant to be 'real' people, they're impressions created by the Wind Fish, and all repeat a few simple lines of dialogue to you. I don't know if this is meant to tell you Link recognizes these are all dreamlike analogies of people, or it’s the simple necessity of running a game on the original Game Boy. But... Marin. This is why I love the secret ending, and restarted to make sure I got it. She has so much character and vibrancy, it's clear she's... real in a way the rest of the NPCs aren't. It's heavily implied she knows the secret of Koholint, and therefore dreams to be like a seagull to see the world outside the dream. Her character arc is surprisingly touching and poignant, and reinforces just how meaningful this cutesy handheld game can be. It’s the nature of dreams to end, as the game says. Perhaps it was always fated Koholint would disappear, but it’s your quest to ensure it does so as it ‘should,’ rather than the nightmare destroying it. These people should fade away peacefully, not be slaughtered by monsters. Zelda is not a series with much moral ambiguity. You're always a prophesied hero, and you're (usually) going up against literal reincarnations of evil. Your actions are never really called into question. There are a few questlines across the games which make you wonder, but the core conceit of the games are always meant to be morally just and ‘good.’ Link's Awakening, in many ways, tries to do something different, and I have always hailed it as one of the best Zeldas for that. It astonishes me they managed this on the GB, for how complex and intricate it is. Even the dialogue, sparse as it is, does so much for adding character. The game stays with you after you're done, and makes you wonder if what you did was right. I love questions of moral perspective and relativity like this, perhaps why I'm so enamored with Yoko Taro's work. I don't believe Link's Awakening sets out to push this question as a central theme to the game; none of the villager dialogue changes after you learn they'll disappear when the Wind Fish wakes up. It's only mentioned in the Ancient Ruins, by the owl, by a couple bosses before and after you fight them. It adds a bit of narrative depth which the rest of the game doesn't really engage with. I don't believe it needs to, I think this works much better for the player to muse about as they finish the game. As an aside, I do feel modern games, and modern media in general, spend far too much effort telling you what to think, what messages to take away, rather than letting you figure it out yourself or with your friends. Ambiguity is a good thing, and makes media so much more interesting and engaging vs. having you turn your brain off for however long and being told what you should think about it. I have so much more of a personal relationship with Link's Awakening because of these questions, and these personal relationships with media are a good thing. They're what media consumption are all about, I think. Later, when you return to Marin at the end of the game, she says she's been praying to the Wind Fish for... what? The game never says. Does she just want Link to kiss her? Does she want him to succeed on his quest? Or, like she said earlier, does she want to be like a seagull, and does she want to explore the outer world with him? I personally think it's the last one, she's praying not to disappear when the Wind Fish wakes. And, like the benevolent-if-absent god it is, it grants this wish because Marin was the only person on the island who knew she was a dream, and didn't want to remain one. Marin might be one of my favorite characters in Zelda, now that I think about it. People always say Majora's Mask is the darkest game in the series, and yeah it still probably earns that title, but the connotations of Link's Awakening's core quest is IMO far more interesting than 'stop creepy moon from falling.' I’m not very knowledgeable in literary analysis, it’s something I squandered in my college education and I’m trying to pick up what I can nowadays. You could write essays picking this game's themes apart, and I’m absolutely sure they exist by now. These are just my thoughts about a game I’ve loved since I was a kid. After teaching you the Ballad of the Wind Fish on your ocarina, Marin says, Please, don't ever forget this song…or me… Later, one of the last things she says is, Link, someday you will leave this island… I just know it in my heart… …Don't ever forget me… If you do, I'll never forgive you! I never have, and I don't think I ever will.</summary></entry><entry><title type="html">Destroyer: A Review</title><link href="https://mattvelez.net/reviews/destroyer-a-review" rel="alternate" type="text/html" title="Destroyer: A Review" /><published>2019-03-13T14:21:30-04:00</published><updated>2019-03-13T14:21:30-04:00</updated><id>https://mattvelez.net/reviews/destroyer-a-review</id><content type="html" xml:base="https://mattvelez.net/reviews/destroyer-a-review">&lt;p&gt;
+  &lt;!-- wp:image {&quot;align&quot;:&quot;center&quot;,&quot;id&quot;:2010} --&gt;
+&lt;/p&gt;
+&lt;div class=&quot;wp-block-image&quot;&gt;
+  &lt;figure class=&quot;aligncenter&quot;&gt;&lt;img src=&quot;/assets/images/2019/03/29605785.jpg&quot; alt=&quot;Destroyer book cover.&quot;
+      class=&quot;wp-image-2010&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  &lt;!-- /wp:image --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I discovered Chris Fox through Instagram. I'm pretty sure it was Instagram. I found an ad for an eBook titled '5,000
+  Words Per Hour.' This is, of course, kind of a ridiculous goal, but I started reading and it put forward a decently
+  well-explained method to do what the title says. I found that he was a YouTube vlogger, and watched a few of his
+  videos. He had some pretty interesting ideas, and if nothing else, got me to start using a to-do list application (I
+  like &lt;a href=&quot;https://todoist.com/&quot;&gt;Todoist&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;So, of course, I was interested in what he'd actually &lt;em&gt;written.&lt;/em&gt; A quick search led me to his body of work,
+  and I got a quadrilogy he'd written after &lt;em&gt;Destroyer&lt;/em&gt;, and &lt;em&gt;Destroyer&lt;/em&gt;. I started with Destroyer first
+  since it's part of the &lt;em&gt;Void Wraith&lt;/em&gt; trilogy and that name just sounds sick as hell.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;It took me until the end of the novel to realize this was Fox's first sci-fi novel, as he states it in the small
+  afterward. As such, I feel somewhat guilty for critiquing it as much as I'm going to (spoilers), but there's a lot I
+  want to talk about. But still, this is his first sci-fi book and it sure reads like it.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:separator --&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+&lt;!-- /wp:separator --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The cover art, by the way, isn't indicative of anything that actually happens in the book. It's some generic sci-fi
+  art with cover text slapped on it. Admittedly, I don't think it looks half bad. I just hope the art was paid for.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The plot is pretty basic. Colonies are disappearing, clearly being taken out by the enigmatic Void Wraith (Fox seems
+  to think 'Wraith' is plural but I don't think it is?), who act like &lt;em&gt;Mass Effect&lt;/em&gt;'s Reapers but look like
+  &lt;em&gt;StarCraft&lt;/em&gt;'s Dark Templar. The story follows Commander Nolan, who's just as much of a Mary Sue as you'd expect
+  with this kind of thing. Just continuing that male savior trope that seems to follow all sci-fi (looking at you,
+  Commander Sheridan from &lt;em&gt;Babylon 5&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I originally wrote that as 'white savior,' but Fox never actually describes anything about Nolan's appearance (as far
+  as I can recall). He also never describes anyone's race, though it's a tossup as to whether that's because he's
+  intentionally keeping it ambiguous, or he just assumes everyone's white.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Nolan's first name is only dropped once in the entire text, so I had no idea if he only had the one. I don't know why
+  this bothers me but it bothers me. It's Adam, by the way.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I said the plot is basic, but I don't mean that it's &lt;em&gt;bad&lt;/em&gt;. It's a fast read, and everything flows naturally
+  enough. There weren't any points in the novel where I put the book down, wondering where the plot was going. Fox puts
+  in some cuts away to Nolan's old flame Kathryn, so she can develop the subplot taken straight out of &lt;em&gt;Star Trek
+    TNG's&lt;/em&gt; &quot;Conspiracy&quot; episode.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The ship he serves on, and by extension the ship we're made to care about, is the UFC &lt;em&gt;Johnston&lt;/em&gt;. Which, I
+  think, is a pretty boring name for a ship. It's a member of the 14th fleet, but we don't ever really see any other
+  members of the 14th. The &lt;em&gt;Johnston&lt;/em&gt; spends the entire book operating alone, and no other ships of the fleet are
+  mentioned. So is it just a fleet of one ship? Why is it even a fleet, then? Where are all the other ships? Were they
+  all destroyed in the war with the Tigris?&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The Tigris, by the way, are the Kilrathi of &lt;em&gt;Wing Commander&lt;/em&gt; who act like Klingons from &lt;em&gt;Star Trek&lt;/em&gt;.
+  That's everything you'll need to know about them.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The other alien race, by the way, are just the Protoss from &lt;em&gt;Starcraft&lt;/em&gt;. They're even called Primo.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:separator --&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+&lt;!-- /wp:separator --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;You may have noticed I'm making a lot of comparisons to other sci-fi. Normally I don't like doing this, I try to see
+  the individuality of each piece of media I experience, but in the case of &lt;em&gt;Destroyer&lt;/em&gt;, there's... not much.
+  It's not that Fox takes entire plot lines from his inspirations, but their influence is so strong, it reads like he's
+  playing by their rules instead of making up his own. Which turns this book into a game of guess-that-sci-fi. The
+  original ideas he &lt;em&gt;does&lt;/em&gt; have are so poorly developed that they &lt;em&gt;did&lt;/em&gt; stop me reading just so I could
+  think about how they even worked.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;FTL works in this setting by literally diving into stars because there are stable wormhole generators (stargates,
+  basically) in their cores. They apparently aren't crushed by the heat or pressure because their shields can harness
+  the star's energy to keep things cool. Which, whatever. It's weird, but whatever.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;But like, does &lt;em&gt;every&lt;/em&gt; star have one of these stargates? (or Helios Gates, for that matter). That's a lot of
+  stars. How did they even get there? One thinks the Primo, being the first race, put them there, but at their height,
+  they were only said to have 400 colonies. There's a heck of a lot more than 400 stars in the Milky Way.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;How did humanity even discover this? Were we gifted the Helios Drives (the name of this star-delving FTL tech)? Did
+  we find it ourselves? Did we send a ton of test ships into the sun? Boy I hope those weren't manned.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Commander Nolan is said to work for the Office of Fleet Intelligence. Its purpose is self-explanatory. But... that's
+  the only administrative body ever mentioned for humanity. We're never told what humanity calls its whole government,
+  like the Galactic Terran Alliance (shout out to Freespace) or United Earth or anything. At one point, it sounds like
+  OFI &lt;em&gt;is&lt;/em&gt; the administrative body. What?&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why is there only one ship in the 14th fleet?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The characters are, in general, dull. Nolan always has a plan, and his experience in OFI means he knows pretty much
+  everything there is to know about everything relevant to the plot. He's never in a position where he doesn't know what
+  to do, or is ever dealt consequences for his actions.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;The captain of the &lt;em&gt;Johnston&lt;/em&gt;, Dryker, gives him command at the beginning of the novel in a potentially
+  hostile situation, which ended up in at least two causalities. That is a &lt;em&gt;huge&lt;/em&gt; dereliction of duty. He later
+  self-destructs the &lt;em&gt;Johnston&lt;/em&gt; to stop some Void Wraith, without checking if there's anyone else alive on the
+  ship except for the people with him. He specifically neglects to announce it over the intercom so the Wraiths don't
+  catch on. He has no idea if anyone else is still alive, and makes no effort to find out.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;He's a pretty terrible captain.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Why do all the alien races speak the same language without any difficulty? Why does everyone default to English?&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;How &lt;em&gt;did&lt;/em&gt; Commander Nolan get disgraced and put on the &lt;em&gt;Johnston&lt;/em&gt;, anyway? The apparent reason is that
+  he's a 'womanizer,' which is the only real character trait we're told he has, but more importantly, he had a
+  relationship with the aforementioned Kathryn. But they seem to be on decent enough terms so...?&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Really, it's just because her father, an admiral, wanted him out of the picture. This is all probably further
+  explored in a prequel story Fox wrote, but I don't feel like reading that since you shouldn't offload important
+  character backstory into some separate thing&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:separator --&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+&lt;!-- /wp:separator --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Fox has an interesting writing style, in that he has a lot of chapters (I think 70+) that are less than 2,000 words.
+  Reading some of the book on my computer, most chapters could fit on a single two-page screen. It's an unorthodox
+  method of writing, but to Fox's credit, it did keep me reading in longer stretches than I otherwise might not have. He
+  describes his method as being better for people who can't read quite as long, such as during a commute, so he prefers
+  short, punchy chapters that you can read through and feel satisfied of your time spent.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;I think it's actually a novel idea, and in general it works well with &lt;em&gt;Destroyer&lt;/em&gt;. My main complaint is that
+  it doesn't leave much room for exposition or worldbuilding. Generally, I take a less-is-more approach with exposition,
+  but there were many places in &lt;em&gt;Destroyer&lt;/em&gt; where I wished Fox would give us a few more paragraphs about the
+  world so it could gel in my mind better. So many places had my suspension of disbelief completely blown because of the
+  vagueness of Fox's prose.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:separator --&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+&lt;!-- /wp:separator --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;One sentence sums up my thoughts on &lt;em&gt;Destroyer&lt;/em&gt;. Really, part of one sentence. If you have any knowledge of
+  naval terminology, I hope you'll do a double take like I did.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:quote --&gt;
+&lt;/p&gt;
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;
+  &lt;p&gt;&quot;...three vessels have de-cloaked off our starboard port.&quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;!-- /wp:quote --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;What?&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:separator --&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+&lt;!-- /wp:separator --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;As much as I'm critiquing this book, I'm still interested in seeing where this Void Wraith Saga's going, so I bought
+  the second book.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;Despite &lt;em&gt;Destroyer&lt;/em&gt; being an amateurish book ripping off multiple sci-fi franchises, at least he got me to buy
+  the second book. I just hope his more recent works have learned from his efforts here.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;If nothing else, it made me want to write my own military sci-fi story, so at least I've got that going.&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- wp:paragraph --&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can find Chris on &lt;a href=&quot;https://www.chrisfoxwrites.com/&quot;&gt;his website&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;!-- /wp:paragraph --&gt;
+&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Reviews" /><category term="reviews" /><category term="sci-fi" /><category term="writing" /><summary type="html">I discovered Chris Fox through Instagram. I'm pretty sure it was Instagram. I found an ad for an eBook titled '5,000 Words Per Hour.' This is, of course, kind of a ridiculous goal, but I started reading and it put forward a decently well-explained method to do what the title says. I found that he was a YouTube vlogger, and watched a few of his videos. He had some pretty interesting ideas, and if nothing else, got me to start using a to-do list application (I like Todoist). So, of course, I was interested in what he'd actually written. A quick search led me to his body of work, and I got a quadrilogy he'd written after Destroyer, and Destroyer. I started with Destroyer first since it's part of the Void Wraith trilogy and that name just sounds sick as hell. It took me until the end of the novel to realize this was Fox's first sci-fi novel, as he states it in the small afterward. As such, I feel somewhat guilty for critiquing it as much as I'm going to (spoilers), but there's a lot I want to talk about. But still, this is his first sci-fi book and it sure reads like it. The cover art, by the way, isn't indicative of anything that actually happens in the book. It's some generic sci-fi art with cover text slapped on it. Admittedly, I don't think it looks half bad. I just hope the art was paid for. The plot is pretty basic. Colonies are disappearing, clearly being taken out by the enigmatic Void Wraith (Fox seems to think 'Wraith' is plural but I don't think it is?), who act like Mass Effect's Reapers but look like StarCraft's Dark Templar. The story follows Commander Nolan, who's just as much of a Mary Sue as you'd expect with this kind of thing. Just continuing that male savior trope that seems to follow all sci-fi (looking at you, Commander Sheridan from Babylon 5). I originally wrote that as 'white savior,' but Fox never actually describes anything about Nolan's appearance (as far as I can recall). He also never describes anyone's race, though it's a tossup as to whether that's because he's intentionally keeping it ambiguous, or he just assumes everyone's white. Nolan's first name is only dropped once in the entire text, so I had no idea if he only had the one. I don't know why this bothers me but it bothers me. It's Adam, by the way. I said the plot is basic, but I don't mean that it's bad. It's a fast read, and everything flows naturally enough. There weren't any points in the novel where I put the book down, wondering where the plot was going. Fox puts in some cuts away to Nolan's old flame Kathryn, so she can develop the subplot taken straight out of Star Trek TNG's &quot;Conspiracy&quot; episode. The ship he serves on, and by extension the ship we're made to care about, is the UFC Johnston. Which, I think, is a pretty boring name for a ship. It's a member of the 14th fleet, but we don't ever really see any other members of the 14th. The Johnston spends the entire book operating alone, and no other ships of the fleet are mentioned. So is it just a fleet of one ship? Why is it even a fleet, then? Where are all the other ships? Were they all destroyed in the war with the Tigris? The Tigris, by the way, are the Kilrathi of Wing Commander who act like Klingons from Star Trek. That's everything you'll need to know about them. The other alien race, by the way, are just the Protoss from Starcraft. They're even called Primo. You may have noticed I'm making a lot of comparisons to other sci-fi. Normally I don't like doing this, I try to see the individuality of each piece of media I experience, but in the case of Destroyer, there's... not much. It's not that Fox takes entire plot lines from his inspirations, but their influence is so strong, it reads like he's playing by their rules instead of making up his own. Which turns this book into a game of guess-that-sci-fi. The original ideas he does have are so poorly developed that they did stop me reading just so I could think about how they even worked. FTL works in this setting by literally diving into stars because there are stable wormhole generators (stargates, basically) in their cores. They apparently aren't crushed by the heat or pressure because their shields can harness the star's energy to keep things cool. Which, whatever. It's weird, but whatever. But like, does every star have one of these stargates? (or Helios Gates, for that matter). That's a lot of stars. How did they even get there? One thinks the Primo, being the first race, put them there, but at their height, they were only said to have 400 colonies. There's a heck of a lot more than 400 stars in the Milky Way. How did humanity even discover this? Were we gifted the Helios Drives (the name of this star-delving FTL tech)? Did we find it ourselves? Did we send a ton of test ships into the sun? Boy I hope those weren't manned. Commander Nolan is said to work for the Office of Fleet Intelligence. Its purpose is self-explanatory. But... that's the only administrative body ever mentioned for humanity. We're never told what humanity calls its whole government, like the Galactic Terran Alliance (shout out to Freespace) or United Earth or anything. At one point, it sounds like OFI is the administrative body. What? Why is there only one ship in the 14th fleet? The characters are, in general, dull. Nolan always has a plan, and his experience in OFI means he knows pretty much everything there is to know about everything relevant to the plot. He's never in a position where he doesn't know what to do, or is ever dealt consequences for his actions. The captain of the Johnston, Dryker, gives him command at the beginning of the novel in a potentially hostile situation, which ended up in at least two causalities. That is a huge dereliction of duty. He later self-destructs the Johnston to stop some Void Wraith, without checking if there's anyone else alive on the ship except for the people with him. He specifically neglects to announce it over the intercom so the Wraiths don't catch on. He has no idea if anyone else is still alive, and makes no effort to find out. He's a pretty terrible captain. Why do all the alien races speak the same language without any difficulty? Why does everyone default to English? How did Commander Nolan get disgraced and put on the Johnston, anyway? The apparent reason is that he's a 'womanizer,' which is the only real character trait we're told he has, but more importantly, he had a relationship with the aforementioned Kathryn. But they seem to be on decent enough terms so...? Really, it's just because her father, an admiral, wanted him out of the picture. This is all probably further explored in a prequel story Fox wrote, but I don't feel like reading that since you shouldn't offload important character backstory into some separate thing Fox has an interesting writing style, in that he has a lot of chapters (I think 70+) that are less than 2,000 words. Reading some of the book on my computer, most chapters could fit on a single two-page screen. It's an unorthodox method of writing, but to Fox's credit, it did keep me reading in longer stretches than I otherwise might not have. He describes his method as being better for people who can't read quite as long, such as during a commute, so he prefers short, punchy chapters that you can read through and feel satisfied of your time spent. I think it's actually a novel idea, and in general it works well with Destroyer. My main complaint is that it doesn't leave much room for exposition or worldbuilding. Generally, I take a less-is-more approach with exposition, but there were many places in Destroyer where I wished Fox would give us a few more paragraphs about the world so it could gel in my mind better. So many places had my suspension of disbelief completely blown because of the vagueness of Fox's prose. One sentence sums up my thoughts on Destroyer. Really, part of one sentence. If you have any knowledge of naval terminology, I hope you'll do a double take like I did. &quot;...three vessels have de-cloaked off our starboard port.&quot; What? As much as I'm critiquing this book, I'm still interested in seeing where this Void Wraith Saga's going, so I bought the second book. Despite Destroyer being an amateurish book ripping off multiple sci-fi franchises, at least he got me to buy the second book. I just hope his more recent works have learned from his efforts here. If nothing else, it made me want to write my own military sci-fi story, so at least I've got that going. You can find Chris on his website.</summary></entry><entry><title type="html">Thoughts on Popful Mail</title><link href="https://mattvelez.net/gaming/thoughts-on-popful-mail" rel="alternate" type="text/html" title="Thoughts on Popful Mail" /><published>2017-02-20T11:14:48-05:00</published><updated>2017-02-20T11:14:48-05:00</updated><id>https://mattvelez.net/gaming/thoughts-on-popful-mail</id><content type="html" xml:base="https://mattvelez.net/gaming/thoughts-on-popful-mail">&lt;p&gt;So in the interests of writing something here, I thought I'd write a bit on a game I played recently, with a really
+  silly title. Popful Mail was released on the Sega CD, which was itself an add-on to the Sega Genesis, back when
+  add-ons to video game consoles were seen as a good way to keep making more money off a console without having to
+  release a new one.&lt;/p&gt;
+&lt;p&gt;I can't say if any of them were that successful, apart from the Super Game Boy maybe. The Sega 32x, the Nintendo
+  64DD, all fading into obscurity with only a few games released on them.&lt;/p&gt;
+&lt;p&gt;The Sega CD fared better than most and had some quality games on it, particularly Sonic CD. I would even hazard to
+  call Popful Mail one of them, too...but also maybe not.&lt;/p&gt;
+&lt;p&gt;I actually discovered the game in college, maybe nine years ago. Back when I used &lt;a
+    href=&quot;https://www.stumbleupon.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;StumbleUpon&lt;/a&gt;, I'd spend lazy hours
+  stumbling through the internet, and I recall finding a few great little websites that way. Most relevantly, a review
+  of a quirky Sega CD game named Popful Mail, by a site I'd never heard of, Hardcore Gaming 101. &lt;a
+    href=&quot;http://www.hardcoregaming101.net/popfulmail/popfulmail.htm&quot; target=&quot;_blank&quot;
+    rel=&quot;noopener noreferrer&quot;&gt;Here's&lt;/a&gt; the page, if you're interesting in reading about it (and also want pictures,
+  because I'm too lazy to load up an emulator and take my own).&lt;/p&gt;
+&lt;p&gt;So it's this 90s platformer about a cute elven bounty hunter named Popful Mail (because this is a Japanese game and
+  why the fuck &lt;em&gt;wouldn't&lt;/em&gt; she have a name like 'Popful Mail'). She goes on a quasi-adventure to save the world
+  from an ancient, sealed away evil, and the reason I put 'quasi' there is because she spends the entire game whining
+  about money and trying to persuade everyone she comes across to give all their gold to her in exchange for her help.
+  Along the way, she meets a mage, Tatto, and a mascot character, Gaw, who eventually join her and can be switched
+  between on the fly, all with different attacks and ways to move around.&lt;/p&gt;
+&lt;p&gt;In that regard, it's pretty interesting. The game controls pretty well and the attacks are very responsive. In
+  particular I really like the animation where Mail swings her sword, there's a nice starry path of the blade swishing
+  through the air&lt;/p&gt;
+&lt;p&gt;In general, the sprite art is really well done for the era. Which isn't surprising, because this game was made by
+  Nihon Falcom, they of the Ys franchise, which I can attest are just freaking great games all around, with beatific
+  music and excellent art. Usually their character design is also top-notch, but Mail spends the entire game in a
+  breastplate with oversized pauldrons and an anime leotard, so maybe something got away from them there.&lt;/p&gt;
+&lt;p&gt;There are five major areas of the game, and all look really cool and detailed. I really like the ice stages, which
+  have an aurora up on the top edge of the screen that sways around as you go through the level. It's admittedly a
+  simple animation, but I like it.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;But, if you know anything about Popful Mail, you probably know the script.&lt;/p&gt;
+&lt;p&gt;See, it was made back when CD games were just catching on, and everyone wanted to make a game with cutscenes and
+  voice acting and all that jazz. So Popful Mail has a ton of voiced lines, and a few animated cutscenes.&lt;/p&gt;
+&lt;p&gt;And.&lt;/p&gt;
+&lt;p&gt;They're terrible.&lt;/p&gt;
+&lt;p&gt;Well, the cutscenes are pretty good, at least. But the voice acting.&lt;/p&gt;
+&lt;p&gt;Mail's voice actress is pretty good, definitely the best of the bunch. Everyone else is just abysmal. Accents are
+  given to characters seemingly at random (one of the main villains is an Italian stereotype for some reason, and the
+  miners in the mining levels are Southern, one villain is Austrian, I'll get back to &lt;em&gt;him&lt;/em&gt;), and the script
+  they're given is probably one of the most offensively poorly written scripts I've ever seen for a video game.&lt;/p&gt;
+&lt;p&gt;Falcom games tend to have what I'd like to call delightfully simple stories. Ys I and II in particular. They're
+  pretty generic JRPG fantasy, but told well. The characters are likeable, and the plots are straightforward and touch
+  on all the tropes you'd expect in a JRPG fantasy, but done in a way that's nostalgic and oddly comforting, instead of
+  boring. It's kind of like eating Hershey's chocolate. It's not the most delicate or rich chocolate you'll ever have,
+  but there's something just comforting about eating it, and it's still pretty tasty chocolate anyway, even if you've
+  had it countless times before.&lt;/p&gt;
+&lt;p&gt;I really like Falcom games for this reason, their stories are just interesting and fun enough for me to look forward
+  to playing through them, without having to worry about slogging through boring sidequests or grinding.&lt;/p&gt;
+&lt;p&gt;I can tell Popful Mail probably had a story like this! It doesn't anymore!&lt;/p&gt;
+&lt;p&gt;The English localizers, the now-defunct Working Designs, decided to use the original Japanese script as mere
+  inspiration, following the story in broad strokes but with a baffling number of unnecessary jokes and 90s references.
+&lt;/p&gt;
+&lt;p&gt;That Austrian character I mentioned before? His backstory, from what I can tell, is that he was one of the heroes
+  that originally sealed away the Big Bad hundreds of years ago, but was probably corrupted by that same evil, and then
+  twisted and kept alive unnaturally to break the seal he strove to create in the first place. So you fight him and his
+  demonic transformations, all with the undercurrent that he's actually a pretty tragic character.&lt;/p&gt;
+&lt;p&gt;In the English version, he's a Schwarzenegger expy. When you first meet him, his opening speech has so many
+  references to Schwarzenegger movies that I laughed aloud at the sheer audacity. He never gets better. He spends all
+  his screen time shouting shitty jokes in an Austrian accent and then you kill him. Any subtlety, any tragedy the
+  character might have had has been eliminated. Just for the sake of a joke.&lt;/p&gt;
+&lt;p&gt;I don't even know the guy's real name. He's called Sven T. Uncommon in the English script, but there's no way that's
+  his actual name in Japanese. Then again... Danganronpa had Sonia Nevermind so who the fuck knows.&lt;/p&gt;
+&lt;p&gt;Anyway. The actual story of Popful Mail is still there, with inklings of the fun Falcom plot buried under all the
+  drivel. I wish I could have read that! Maybe someone will come around and do a fan translation, like the difficulty
+  patch I played the game around with this time. I'd even try my hand at translating the script by hand, but my Japanese
+  is nowhere good enough, nor do I have the time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;One other thing people know about Popful Mail is its difficulty. In the English version, Working Designs jacked up
+  the stats for pretty much all the enemies, as well as the prices for every item in the shops. It generally made the
+  game next to impossible to beat, I hear, and I recall it being needlessly frustrating when I played it back in the
+  day.&lt;/p&gt;
+&lt;p&gt;There's a fan patch, however, that fixes this. It restores all those values to what it was in the Japanese version,
+  heavily streamlining the game and making it much easier to complete, not to mention heavily cutting down on the
+  grinding for money to buy all the equipment. I won't link it here, but Google's your friend.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;For a long time, Popful Mail was a very special game to me, and I'm not sure if I can explain why.&lt;/p&gt;
+&lt;p&gt;It stood in my mind as this sort of... I would almost say shrine of 90s platformers. I would look back on it and
+  realize that &lt;em&gt;this&lt;/em&gt; was essentially what I wanted in this genre. I love other platformers, don't get me wrong,
+  but Popful Mail stood out as special to me. I loved the art, the gameplay (apart from the shitty artificial
+  difficulty), I loved the main character and the beginning of her quest.&lt;/p&gt;
+&lt;p&gt;It should be noted that until I played through the entire game a couple of weeks ago, I had never gotten past the
+  first area, the forest. For nine years, I had basically no idea what happened or what the game looked like. I formed
+  this little mental shrine to 90s Japanese fantasy gaming based off a couple of stages and a bit of character dialogue.
+&lt;/p&gt;
+&lt;p&gt;I still think I pull some kind of inspiration from it, whether it's my love of elven characters, or just this fun,
+  cutesey idea of a down-on-her-luck elven bounty hunter who can never hope to make it big, but is always hopeful for
+  the future. The beginning of the game is her pretty much doing her normal thing, chasing down a lead through this
+  elven forest, and it's light on story. She's just exploring this forest, that she's probably been through countless
+  times, interacting with the villagers and slaying monsters. I'd call it timelessly nostalgic for me personally, just
+  thinking about this girl and her silly sort of life, before the story picked up and she was tasked to save the world.
+&lt;/p&gt;
+&lt;p&gt;Even though I've played through the game and have seen the ending, where she finally &lt;em&gt;does&lt;/em&gt; strike it rich, I
+  always think of that beginning segment. Her world's just about to unfold, but for right now, she's just living her
+  normal life. Always after a big bounty but never quite able to get it. Living a quaint but I would argue fun fantasy
+  life.&lt;/p&gt;
+&lt;p&gt;And hell, even &lt;em&gt;after&lt;/em&gt; the end of the game, I can still see Mail in the same forest, now a heck of a lot
+  richer and retired from the bounty hunting life, still exploring and adventuring. Maybe she's bored, maybe it's just a
+  hobby at this point, but it's an image that I always feel a bit drawn to when I think about this silly little game.
+&lt;/p&gt;
+&lt;p&gt;I do this all the time, and I'm sure everyone else does it too: building these sort of idealized versions of
+  something in my head, wholly separate from the reality. The reality of Popful Mail is, unfortunately, that it's a
+  badly written English script that's barely a story, full of unlikable, parodical characters in a game that's actually
+  not that complex or innovative for its era. Apart from the fact that it has animated cutscenes and voice acting.&lt;/p&gt;
+&lt;p&gt;But to me, it's beautiful. Not for the reality, but for the Popful Mail I've built up in my own head, based only on
+  nine years of knowing the first area and only hints of what came next. After playing it all the way through, I still
+  have that image, not tarnished with the reality, but improved by it. I can still see what drew me to it in the first
+  place, with even more to pull from to make it special.&lt;/p&gt;
+&lt;p&gt;I'm a pretty sentimental guy, I'll admit, and this is a prime example of why. But it's this sentimentality that fuels
+  my writing, and for that, Popful Mail holds a special place in my heart. I used to call it one of my favorite games,
+  which is &lt;em&gt;wildly&lt;/em&gt; inaccurate these days, but I will say it's one of the more interesting. Not in a profound way
+  like Planescape: Torment or Persona 3, but quietly meaningful.&lt;/p&gt;
+&lt;p&gt;But jeeze, I wish I could play a fan retranslation one of these days. Hope for the future, I suppose.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Gaming" /><category term="gaming" /><category term="musing" /><category term="personal" /><summary type="html">So in the interests of writing something here, I thought I'd write a bit on a game I played recently, with a really silly title. Popful Mail was released on the Sega CD, which was itself an add-on to the Sega Genesis, back when add-ons to video game consoles were seen as a good way to keep making more money off a console without having to release a new one. I can't say if any of them were that successful, apart from the Super Game Boy maybe. The Sega 32x, the Nintendo 64DD, all fading into obscurity with only a few games released on them. The Sega CD fared better than most and had some quality games on it, particularly Sonic CD. I would even hazard to call Popful Mail one of them, too...but also maybe not. I actually discovered the game in college, maybe nine years ago. Back when I used StumbleUpon, I'd spend lazy hours stumbling through the internet, and I recall finding a few great little websites that way. Most relevantly, a review of a quirky Sega CD game named Popful Mail, by a site I'd never heard of, Hardcore Gaming 101. Here's the page, if you're interesting in reading about it (and also want pictures, because I'm too lazy to load up an emulator and take my own). So it's this 90s platformer about a cute elven bounty hunter named Popful Mail (because this is a Japanese game and why the fuck wouldn't she have a name like 'Popful Mail'). She goes on a quasi-adventure to save the world from an ancient, sealed away evil, and the reason I put 'quasi' there is because she spends the entire game whining about money and trying to persuade everyone she comes across to give all their gold to her in exchange for her help. Along the way, she meets a mage, Tatto, and a mascot character, Gaw, who eventually join her and can be switched between on the fly, all with different attacks and ways to move around. In that regard, it's pretty interesting. The game controls pretty well and the attacks are very responsive. In particular I really like the animation where Mail swings her sword, there's a nice starry path of the blade swishing through the air In general, the sprite art is really well done for the era. Which isn't surprising, because this game was made by Nihon Falcom, they of the Ys franchise, which I can attest are just freaking great games all around, with beatific music and excellent art. Usually their character design is also top-notch, but Mail spends the entire game in a breastplate with oversized pauldrons and an anime leotard, so maybe something got away from them there. There are five major areas of the game, and all look really cool and detailed. I really like the ice stages, which have an aurora up on the top edge of the screen that sways around as you go through the level. It's admittedly a simple animation, but I like it. But, if you know anything about Popful Mail, you probably know the script. See, it was made back when CD games were just catching on, and everyone wanted to make a game with cutscenes and voice acting and all that jazz. So Popful Mail has a ton of voiced lines, and a few animated cutscenes. And. They're terrible. Well, the cutscenes are pretty good, at least. But the voice acting. Mail's voice actress is pretty good, definitely the best of the bunch. Everyone else is just abysmal. Accents are given to characters seemingly at random (one of the main villains is an Italian stereotype for some reason, and the miners in the mining levels are Southern, one villain is Austrian, I'll get back to him), and the script they're given is probably one of the most offensively poorly written scripts I've ever seen for a video game. Falcom games tend to have what I'd like to call delightfully simple stories. Ys I and II in particular. They're pretty generic JRPG fantasy, but told well. The characters are likeable, and the plots are straightforward and touch on all the tropes you'd expect in a JRPG fantasy, but done in a way that's nostalgic and oddly comforting, instead of boring. It's kind of like eating Hershey's chocolate. It's not the most delicate or rich chocolate you'll ever have, but there's something just comforting about eating it, and it's still pretty tasty chocolate anyway, even if you've had it countless times before. I really like Falcom games for this reason, their stories are just interesting and fun enough for me to look forward to playing through them, without having to worry about slogging through boring sidequests or grinding. I can tell Popful Mail probably had a story like this! It doesn't anymore! The English localizers, the now-defunct Working Designs, decided to use the original Japanese script as mere inspiration, following the story in broad strokes but with a baffling number of unnecessary jokes and 90s references. That Austrian character I mentioned before? His backstory, from what I can tell, is that he was one of the heroes that originally sealed away the Big Bad hundreds of years ago, but was probably corrupted by that same evil, and then twisted and kept alive unnaturally to break the seal he strove to create in the first place. So you fight him and his demonic transformations, all with the undercurrent that he's actually a pretty tragic character. In the English version, he's a Schwarzenegger expy. When you first meet him, his opening speech has so many references to Schwarzenegger movies that I laughed aloud at the sheer audacity. He never gets better. He spends all his screen time shouting shitty jokes in an Austrian accent and then you kill him. Any subtlety, any tragedy the character might have had has been eliminated. Just for the sake of a joke. I don't even know the guy's real name. He's called Sven T. Uncommon in the English script, but there's no way that's his actual name in Japanese. Then again... Danganronpa had Sonia Nevermind so who the fuck knows. Anyway. The actual story of Popful Mail is still there, with inklings of the fun Falcom plot buried under all the drivel. I wish I could have read that! Maybe someone will come around and do a fan translation, like the difficulty patch I played the game around with this time. I'd even try my hand at translating the script by hand, but my Japanese is nowhere good enough, nor do I have the time. One other thing people know about Popful Mail is its difficulty. In the English version, Working Designs jacked up the stats for pretty much all the enemies, as well as the prices for every item in the shops. It generally made the game next to impossible to beat, I hear, and I recall it being needlessly frustrating when I played it back in the day. There's a fan patch, however, that fixes this. It restores all those values to what it was in the Japanese version, heavily streamlining the game and making it much easier to complete, not to mention heavily cutting down on the grinding for money to buy all the equipment. I won't link it here, but Google's your friend. For a long time, Popful Mail was a very special game to me, and I'm not sure if I can explain why. It stood in my mind as this sort of... I would almost say shrine of 90s platformers. I would look back on it and realize that this was essentially what I wanted in this genre. I love other platformers, don't get me wrong, but Popful Mail stood out as special to me. I loved the art, the gameplay (apart from the shitty artificial difficulty), I loved the main character and the beginning of her quest. It should be noted that until I played through the entire game a couple of weeks ago, I had never gotten past the first area, the forest. For nine years, I had basically no idea what happened or what the game looked like. I formed this little mental shrine to 90s Japanese fantasy gaming based off a couple of stages and a bit of character dialogue. I still think I pull some kind of inspiration from it, whether it's my love of elven characters, or just this fun, cutesey idea of a down-on-her-luck elven bounty hunter who can never hope to make it big, but is always hopeful for the future. The beginning of the game is her pretty much doing her normal thing, chasing down a lead through this elven forest, and it's light on story. She's just exploring this forest, that she's probably been through countless times, interacting with the villagers and slaying monsters. I'd call it timelessly nostalgic for me personally, just thinking about this girl and her silly sort of life, before the story picked up and she was tasked to save the world. Even though I've played through the game and have seen the ending, where she finally does strike it rich, I always think of that beginning segment. Her world's just about to unfold, but for right now, she's just living her normal life. Always after a big bounty but never quite able to get it. Living a quaint but I would argue fun fantasy life. And hell, even after the end of the game, I can still see Mail in the same forest, now a heck of a lot richer and retired from the bounty hunting life, still exploring and adventuring. Maybe she's bored, maybe it's just a hobby at this point, but it's an image that I always feel a bit drawn to when I think about this silly little game. I do this all the time, and I'm sure everyone else does it too: building these sort of idealized versions of something in my head, wholly separate from the reality. The reality of Popful Mail is, unfortunately, that it's a badly written English script that's barely a story, full of unlikable, parodical characters in a game that's actually not that complex or innovative for its era. Apart from the fact that it has animated cutscenes and voice acting. But to me, it's beautiful. Not for the reality, but for the Popful Mail I've built up in my own head, based only on nine years of knowing the first area and only hints of what came next. After playing it all the way through, I still have that image, not tarnished with the reality, but improved by it. I can still see what drew me to it in the first place, with even more to pull from to make it special. I'm a pretty sentimental guy, I'll admit, and this is a prime example of why. But it's this sentimentality that fuels my writing, and for that, Popful Mail holds a special place in my heart. I used to call it one of my favorite games, which is wildly inaccurate these days, but I will say it's one of the more interesting. Not in a profound way like Planescape: Torment or Persona 3, but quietly meaningful. But jeeze, I wish I could play a fan retranslation one of these days. Hope for the future, I suppose.</summary></entry><entry><title type="html">Staying Motivated</title><link href="https://mattvelez.net/writing/staying-motivated" rel="alternate" type="text/html" title="Staying Motivated" /><published>2016-09-09T11:00:44-04:00</published><updated>2016-09-09T11:00:44-04:00</updated><id>https://mattvelez.net/writing/staying-motivated</id><content type="html" xml:base="https://mattvelez.net/writing/staying-motivated">&lt;p&gt;A friend just asked on Facebook what tips I might have for staying motivated while researching/writing.&lt;/p&gt;
+&lt;p&gt;Instead of making a few concise bullet-points, I figure I'll just blow it out into a whole blog post since, well, I
+  do need more posts on this blog.&lt;/p&gt;
+&lt;p&gt;Not to mention I'm not a very concise person about writing, anyway.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;So I'm running into this problem a lot lately.&lt;/p&gt;
+&lt;p&gt;Last blog post mentioned I was starting the foundation work for my NaNoWriMo novel, and that means a lot of
+  worldbuilding and thinking about how I want the plot to go. It means writing a few exploratory scenes, which may or
+  may not appear in the draft, so I can figure out the characters a bit better.&lt;/p&gt;
+&lt;p&gt;It's hard! It's hard to think about every day, in addition to trying to get a job, trying to learn more programming
+  so I can present myself better to potential employers. Not to mention continuing to read the giant monolith that is
+  Berserk, and however other bits of media I want to consume.&lt;/p&gt;
+&lt;p&gt;Yesterday, I read Berserk all day. Which, to those not in the know, is a Japanese comic (really, manga) that's been
+  published since '89. A month before my birthday, actually. I feel like I learned a lot about storytelling, as I always
+  do while I read more of it, but I can't say I did anything constructive.&lt;/p&gt;
+&lt;p&gt;That's just an example, but it's a recurring one recently. Spending my time by reading or watching stuff, and not
+  doing anything 'constructive.' I'm interested in writing a book come November, but am I motivated?&lt;/p&gt;
+&lt;p&gt;How motivated do I have to be for this thing, anyway?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;While I'm writing, my motivation depends on what I'm writing. I've written a lot of short story fragments I work on
+  maybe once or twice, get them in a single writing session and then drop when I lose interest. I don't care about these
+  so much, they're usually just something to get me writing, or to think about a scene or a character interaction,
+  rather than something I 'mean' to write. Practice, that sort of thing.&lt;/p&gt;
+&lt;p&gt;But when it's a book, well...&lt;/p&gt;
+&lt;p&gt;While I was writing the first half of the &lt;span style=&quot;text-decoration:underline;&quot;&gt;Witch and the Snake&lt;/span&gt; draft,
+  motivation definitely flagged in a lot of places. It felt like the characters weren't doing anything interesting,
+  because I needed to lay down more setting detail and exposition, and that meant a lot of seemingly-boring scenes that
+  I had to get through. I'd fix them in later drafts, but I still had to write them now.&lt;/p&gt;
+&lt;p&gt;And, for the most part, I just kept going.&lt;/p&gt;
+&lt;p&gt;What helped me was having a road plan, having an idea of what I wanted to happen and where I wanted the story to go.
+  Not a full outline, I found the hard way those tend to stifle my creativity, but a more bare-bones 'in this chapter
+  this happens, and because of that this happens in this next chapter' kind of thing. This meant I could plan ahead, get
+  excited about reaching the more fun scenes that I wanted to write, while also remembering to put foreshadowing and
+  subplots in the current chapter that would reach fulfillment later.&lt;/p&gt;
+&lt;p&gt;I think that's pretty important, to have an idea where you're going. When I write those short fragments, I often have
+  no idea where a scene will go or what I'll expect from it. This usually means I lose interest pretty quickly, and is
+  obviously untenable for longer works. Motivation's easy to lose when you're just flying blind, since why are you even
+  flying in the first place?&lt;/p&gt;
+&lt;p&gt;It also helps to talk about what you're doing, even if it's just to yourself (I have a little anime figurine I keep
+  by my desk to talk to, kind of like &lt;a href=&quot;https://www.wikiwand.com/en/Rubber_duck_debugging&quot; target=&quot;_blank&quot;
+    rel=&quot;noopener noreferrer&quot;&gt;rubber duck debugging&lt;/a&gt; for programmers). If you voice your thoughts, I've found that it
+  helps keep you focused and keep your mind on the task. You can psych yourself up that way, I know I have.&lt;/p&gt;
+&lt;p&gt;You've got to remember why you're writing in the first place. What makes this particular piece worth it. Motivation
+  will flag, yeah, but you'll be able to pick it up again.&lt;/p&gt;
+&lt;p&gt;This also comes in handy when there are times, sometimes days, sometimes entire weeks, when you just can't work on
+  your project. In my case, I get too busy, or I'm too tired from work to devote more time to mental activity. But by
+  staying interested, by staying hyped up about your project, you can get through times like this easier.&lt;/p&gt;
+&lt;p&gt;Granted, if you're both unmotivated &lt;em&gt;and&lt;/em&gt; busy, then it can suck. But you're writing for a reason, you've got
+  an idea you want to impart, some kind of the joy you feel about it that you want to give to other people. That's what
+  you have to hold onto when it gets hard. You're doing this for you, so you have to go at your own pace.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Research, though, that's a tricky one.&lt;/p&gt;
+&lt;p&gt;I have no idea how to research.&lt;/p&gt;
+&lt;p&gt;Like, I have no idea how to effectively figure out researching in terms of worldbuilding. Maybe I'm being too hard on
+  myself, since most research is meant to be very exploratory, you're supposed to extend your feelers out and see what
+  sticks.&lt;/p&gt;
+&lt;p&gt;But it gets hard when, in my case, I'm trying to develop a space setting and get more of a foundation for how it
+  works, so it'll be easier for me to write. I want to figure out the cultures and all those little worldbuildy bits for
+  a few of the space-nations of the setting, but I'm not sure how to do that.&lt;/p&gt;
+&lt;p&gt;It's meant that I haven't &lt;em&gt;done&lt;/em&gt; much 'research' in the past few weeks.&lt;/p&gt;
+&lt;p&gt;I think that's due to not knowing where to start. It's been a big stopping block for me in the past. I'm not sure of
+  any way to brute-force or finesse a way past it. In theory, I believe it might help to just tackle what little you've
+  thought of already, and try to expand that naturally. If you're already thinking about a world, there's a good chance
+  you've idly thought of some qualities of it, some things you've found interesting, and those are the things you should
+  develop more. Other areas of the world will open themselves if you've got that kind of base.&lt;/p&gt;
+&lt;p&gt;In this space setting, one of the first areas the characters go to is a kind of space-Egyptian culture, not entirely
+  but more in spirit. The plan is to make it relatively-light, started by a few Egypt-minded people that settled on a
+  desert world and tried to make the most of things, an idea naturally spread as they grew more powerful and gained
+  sovereignty over other star systems.&lt;/p&gt;
+&lt;p&gt;I know a lot about Ancient Egypt already, but I can use that to think about how this culture would develop, what
+  their homeworld is like and how that would dilute to the other systems.&lt;/p&gt;
+&lt;p&gt;I don't know.&lt;/p&gt;
+&lt;p&gt;But it's something.&lt;/p&gt;
+&lt;p&gt;I'm interested in it figuring out, at least right now.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Writing" /><category term="musing" /><category term="stories" /><category term="writing" /><summary type="html">A friend just asked on Facebook what tips I might have for staying motivated while researching/writing. Instead of making a few concise bullet-points, I figure I'll just blow it out into a whole blog post since, well, I do need more posts on this blog. Not to mention I'm not a very concise person about writing, anyway. So I'm running into this problem a lot lately. Last blog post mentioned I was starting the foundation work for my NaNoWriMo novel, and that means a lot of worldbuilding and thinking about how I want the plot to go. It means writing a few exploratory scenes, which may or may not appear in the draft, so I can figure out the characters a bit better. It's hard! It's hard to think about every day, in addition to trying to get a job, trying to learn more programming so I can present myself better to potential employers. Not to mention continuing to read the giant monolith that is Berserk, and however other bits of media I want to consume. Yesterday, I read Berserk all day. Which, to those not in the know, is a Japanese comic (really, manga) that's been published since '89. A month before my birthday, actually. I feel like I learned a lot about storytelling, as I always do while I read more of it, but I can't say I did anything constructive. That's just an example, but it's a recurring one recently. Spending my time by reading or watching stuff, and not doing anything 'constructive.' I'm interested in writing a book come November, but am I motivated? How motivated do I have to be for this thing, anyway? While I'm writing, my motivation depends on what I'm writing. I've written a lot of short story fragments I work on maybe once or twice, get them in a single writing session and then drop when I lose interest. I don't care about these so much, they're usually just something to get me writing, or to think about a scene or a character interaction, rather than something I 'mean' to write. Practice, that sort of thing. But when it's a book, well... While I was writing the first half of the Witch and the Snake draft, motivation definitely flagged in a lot of places. It felt like the characters weren't doing anything interesting, because I needed to lay down more setting detail and exposition, and that meant a lot of seemingly-boring scenes that I had to get through. I'd fix them in later drafts, but I still had to write them now. And, for the most part, I just kept going. What helped me was having a road plan, having an idea of what I wanted to happen and where I wanted the story to go. Not a full outline, I found the hard way those tend to stifle my creativity, but a more bare-bones 'in this chapter this happens, and because of that this happens in this next chapter' kind of thing. This meant I could plan ahead, get excited about reaching the more fun scenes that I wanted to write, while also remembering to put foreshadowing and subplots in the current chapter that would reach fulfillment later. I think that's pretty important, to have an idea where you're going. When I write those short fragments, I often have no idea where a scene will go or what I'll expect from it. This usually means I lose interest pretty quickly, and is obviously untenable for longer works. Motivation's easy to lose when you're just flying blind, since why are you even flying in the first place? It also helps to talk about what you're doing, even if it's just to yourself (I have a little anime figurine I keep by my desk to talk to, kind of like rubber duck debugging for programmers). If you voice your thoughts, I've found that it helps keep you focused and keep your mind on the task. You can psych yourself up that way, I know I have. You've got to remember why you're writing in the first place. What makes this particular piece worth it. Motivation will flag, yeah, but you'll be able to pick it up again. This also comes in handy when there are times, sometimes days, sometimes entire weeks, when you just can't work on your project. In my case, I get too busy, or I'm too tired from work to devote more time to mental activity. But by staying interested, by staying hyped up about your project, you can get through times like this easier. Granted, if you're both unmotivated and busy, then it can suck. But you're writing for a reason, you've got an idea you want to impart, some kind of the joy you feel about it that you want to give to other people. That's what you have to hold onto when it gets hard. You're doing this for you, so you have to go at your own pace. Research, though, that's a tricky one. I have no idea how to research. Like, I have no idea how to effectively figure out researching in terms of worldbuilding. Maybe I'm being too hard on myself, since most research is meant to be very exploratory, you're supposed to extend your feelers out and see what sticks. But it gets hard when, in my case, I'm trying to develop a space setting and get more of a foundation for how it works, so it'll be easier for me to write. I want to figure out the cultures and all those little worldbuildy bits for a few of the space-nations of the setting, but I'm not sure how to do that. It's meant that I haven't done much 'research' in the past few weeks. I think that's due to not knowing where to start. It's been a big stopping block for me in the past. I'm not sure of any way to brute-force or finesse a way past it. In theory, I believe it might help to just tackle what little you've thought of already, and try to expand that naturally. If you're already thinking about a world, there's a good chance you've idly thought of some qualities of it, some things you've found interesting, and those are the things you should develop more. Other areas of the world will open themselves if you've got that kind of base. In this space setting, one of the first areas the characters go to is a kind of space-Egyptian culture, not entirely but more in spirit. The plan is to make it relatively-light, started by a few Egypt-minded people that settled on a desert world and tried to make the most of things, an idea naturally spread as they grew more powerful and gained sovereignty over other star systems. I know a lot about Ancient Egypt already, but I can use that to think about how this culture would develop, what their homeworld is like and how that would dilute to the other systems. I don't know. But it's something. I'm interested in it figuring out, at least right now.</summary></entry><entry><title type="html">NaNoWriMo 2016 - Pre-Planning</title><link href="https://mattvelez.net/writing/nanowrimo-2016-pre-planning" rel="alternate" type="text/html" title="NaNoWriMo 2016 - Pre-Planning" /><published>2016-09-07T09:50:52-04:00</published><updated>2016-09-07T09:50:52-04:00</updated><id>https://mattvelez.net/writing/nanowrimo-2016-pre-planning</id><content type="html" xml:base="https://mattvelez.net/writing/nanowrimo-2016-pre-planning">&lt;p&gt;&lt;em&gt;Header image via &lt;a href=&quot;https://morguefile.com/p/915388&quot; target=&quot;_blank&quot;
+      rel=&quot;noopener noreferrer&quot;&gt;Morguefile&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So here we are again.&lt;/p&gt;
+&lt;p&gt;May to September.&lt;/p&gt;
+&lt;p&gt;No point in dwelling on &lt;em&gt;that&lt;/em&gt;, I suppose, though I did manage to finish the draft of &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt;...back in July. Really should have made a post
+  about that.&lt;/p&gt;
+&lt;p&gt;Yay?&lt;/p&gt;
+&lt;p&gt;Like I said, I'm not worrying about it until 2017...&lt;em&gt;maybe&lt;/em&gt; this coming December if I finish NaNoWriMo early.
+  Which I doubt. But &lt;span style=&quot;text-decoration:underline;&quot;&gt;Airless&lt;/span&gt; only took until the middle of the month so
+  I'll have time and be restless.&lt;/p&gt;
+&lt;p&gt;Then again, I really should stop planning for the future since it never seems to work out the way I like&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;But I'm getting ahead of myself.&lt;/p&gt;
+&lt;p&gt;The business of the day is, well, up in the title. I haven't done a NaNoWriMo since 2012, and no one's more surprised
+  than me that four freaking years have passed since then. I've changed &lt;em&gt;so much&lt;/em&gt; since then, especially my
+  writing. I have settings, characters, whole series that I didn't have back then.&lt;/p&gt;
+&lt;p&gt;All I had in those days were the image of an air vent belching oxygen into a dark, endless void. That birthed my
+  first completed novel, and I can't say I'm not nostalgic for those days. I'm more set in my ways now, I have projects
+  I want to do and am planning for, but I miss how small my imagination was back then. When I was hungry for any and
+  every idea, and spent hundreds or thousands of words tying one down no matter how sparse it seemed. I just wanted
+  &lt;em&gt;something&lt;/em&gt;, some body of work, something to show off and prove I was a &lt;em&gt;writer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;And, well, I've got it now.&lt;/p&gt;
+&lt;p&gt;Brief nostalgia trip aside, I've decided on what I want to write for NaNoWriMo. It was between this and another idea
+  I had, a Gothic fantasy, but this idea's technically older and I want a little more time to flesh that setting out
+  before I work on it. Which will probably be next year after I'm done editing &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt;...or maybe my 2017 NaNo. Who knows.&lt;/p&gt;
+&lt;p&gt;Okay, so.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This&lt;/em&gt; project is a space opera. Probably my favorite genre alongside Gothic fantasy. It stars an AI, the
+  sentient computer of a starship, who had been stranded in an uncharted star system for fifty years. She's rescued by
+  and works with a disgraced pilot, living a life of squalor out on the frontier, and they work together to return to
+  Earth, to reunite the AI with her 'mother,' the woman who programmed her.&lt;/p&gt;
+&lt;p&gt;And along the way the AI learns a little something about friendship, love, and the human condition.&lt;/p&gt;
+&lt;p&gt;Okay, she learns a &lt;em&gt;lot&lt;/em&gt; about all that stuff.&lt;/p&gt;
+&lt;p&gt;The story is going to be a more philosophical story than I'm usually used to, but still stay well within the
+  lighthearted/easy-read adventure that I like writing so much. Kind of like those old Han Solo novels written in the
+  early 90s: a lot of space action, exploring strange frontier worlds, meeting fun, quirky people, making what I hope
+  would be a fun read, not too full of itself. It'll also have a lot of quiet ruminating on the part of the AI about
+  humanity and how she fits into it. How she &lt;em&gt;wants&lt;/em&gt; to fit into it but doesn't know if she can, if she's too
+  fundamentally different from human beings to be able to consider herself 'human.'&lt;/p&gt;
+&lt;p&gt;I don't like the tone of a lot of so-called 'philosophical' sci-fi, it tends to be entirely too full of itself,
+  reading more like a regurgitation of the author's well-manicured ideals than any kind of story. Issac Asimov did this
+  a lot, and it ruined Frank Herbert's &lt;span style=&quot;text-decoration:underline;&quot;&gt;Dune&lt;/span&gt;, when &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;God-Emperor of Dune&lt;/span&gt; literally just became the main character spouting how
+  his society was perfect and how he was the best ruler in human history because he was a 10,000 year old space slug.
+&lt;/p&gt;
+&lt;p&gt;Philosophical sci-fi doesn't do it for me. Generally speaking, I love to be proven wrong. It focuses on the ideas and
+  skimps on the characters, the aforementioned &lt;span style=&quot;text-decoration:underline;&quot;&gt;God-Emperor&lt;/span&gt; was
+  essentially a series of conversations in various rooms of Leto's palace, with very little if any action to tie them
+  together. Which is fine, if all you want your book to do is introduce a philosophical idea and work with it for
+  hundreds of pages.&lt;/p&gt;
+&lt;p&gt;But I don't.&lt;/p&gt;
+&lt;p&gt;I want to write about cool people having cool adventures in space, because that's what I grew up with. There's a lot
+  of Star Trek showing through in this project, since it combines the adventure I want to write with some philosophical
+  musing, but what I hope is more laid-back, more the musing of one character and her trying to reach out to the world
+  around her, the people she meets and takes information from.&lt;/p&gt;
+&lt;p&gt;The other main character, the star-pilot, isn't very philosophically bent, which I hope will prevent the book from
+  reading like an existentialism college course. He'll keep her grounded, and while he'll respect her and talk to her as
+  an equal, he'll be upfront that he is &lt;em&gt;not&lt;/em&gt; the person to talk about deep introspection with.&lt;/p&gt;
+&lt;p&gt;And I think that's cool. I've been thinking about these two characters since early 2013, thinking of the plot I want
+  to make and the setting they're a part of, and I'm excited to finally start writing it in November. I think it's a
+  good time to do so, and it'll be a nice breather after submerging myself in fantasy for the past year.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;The problem is, of course, the setting.&lt;/p&gt;
+&lt;p&gt;I have &lt;em&gt;no&lt;/em&gt; idea how to worldbuild a space setting.&lt;/p&gt;
+&lt;p&gt;But that's not the best way to describe it. I've already built a lot of the setting already. I have the FTL system
+  pretty well plotted out, there's a lot of potential for conflict and adventure there. I have every populated world
+  named and aligned to either a multi-system government or independent. I even have some of the classes of the various
+  governmental navies in the setting.&lt;/p&gt;
+&lt;p&gt;Rather, I'm not sure where to go from here. Not sure how to move from these disparate ideas into a full-fledged place
+  I can write stories in.&lt;/p&gt;
+&lt;p&gt;How do you create a world? How do you decide what worlds have access to tech-wise, what they look like, what kinds of
+  people live there? Now, I'm talking about &lt;em&gt;entire worlds&lt;/em&gt;, since I don't like how a lot of space settings treat
+  planets as basically just glorified cities. If you're colonizing an entire planet, you're probably going to colonize
+  as much of it as you can, not just a few plots of land. You're going to create entirely new cultures based around the
+  planet, and &lt;em&gt;definitely&lt;/em&gt; not just copy-pasting current Earth cultures. I don't like that, it feels lazy and
+  kind of racist, assuming every current country is going to colonize an entire planet by themselves, without any kind
+  of meaningful cross-pollination. If anything, that should be in the minority.&lt;/p&gt;
+&lt;p&gt;But now I'm rambling, and that should really be its own post.&lt;/p&gt;
+&lt;p&gt;I'm going to think about this, and share some of my thoughts in future posts. I just wanted to check in again and
+  talk about where I'm going. I'll hopefully have a few posts worth about this setting, which I call Starline, after the
+  name of the FTL drive. Plus, there's a few more posts I want to write about Salazarre, which I have in my drafts but
+  haven't actually fleshed out.&lt;/p&gt;
+&lt;p&gt;Onward and upward, I suppose.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Writing" /><category term="nanowrimo" /><category term="Starline" /><category term="stories" /><category term="writing" /><summary type="html">Header image via Morguefile. So here we are again. May to September. No point in dwelling on that, I suppose, though I did manage to finish the draft of The Witch and the Snake...back in July. Really should have made a post about that. Yay? Like I said, I'm not worrying about it until 2017...maybe this coming December if I finish NaNoWriMo early. Which I doubt. But Airless only took until the middle of the month so I'll have time and be restless. Then again, I really should stop planning for the future since it never seems to work out the way I like But I'm getting ahead of myself. The business of the day is, well, up in the title. I haven't done a NaNoWriMo since 2012, and no one's more surprised than me that four freaking years have passed since then. I've changed so much since then, especially my writing. I have settings, characters, whole series that I didn't have back then. All I had in those days were the image of an air vent belching oxygen into a dark, endless void. That birthed my first completed novel, and I can't say I'm not nostalgic for those days. I'm more set in my ways now, I have projects I want to do and am planning for, but I miss how small my imagination was back then. When I was hungry for any and every idea, and spent hundreds or thousands of words tying one down no matter how sparse it seemed. I just wanted something, some body of work, something to show off and prove I was a writer. And, well, I've got it now. Brief nostalgia trip aside, I've decided on what I want to write for NaNoWriMo. It was between this and another idea I had, a Gothic fantasy, but this idea's technically older and I want a little more time to flesh that setting out before I work on it. Which will probably be next year after I'm done editing The Witch and the Snake...or maybe my 2017 NaNo. Who knows. Okay, so. This project is a space opera. Probably my favorite genre alongside Gothic fantasy. It stars an AI, the sentient computer of a starship, who had been stranded in an uncharted star system for fifty years. She's rescued by and works with a disgraced pilot, living a life of squalor out on the frontier, and they work together to return to Earth, to reunite the AI with her 'mother,' the woman who programmed her. And along the way the AI learns a little something about friendship, love, and the human condition. Okay, she learns a lot about all that stuff. The story is going to be a more philosophical story than I'm usually used to, but still stay well within the lighthearted/easy-read adventure that I like writing so much. Kind of like those old Han Solo novels written in the early 90s: a lot of space action, exploring strange frontier worlds, meeting fun, quirky people, making what I hope would be a fun read, not too full of itself. It'll also have a lot of quiet ruminating on the part of the AI about humanity and how she fits into it. How she wants to fit into it but doesn't know if she can, if she's too fundamentally different from human beings to be able to consider herself 'human.' I don't like the tone of a lot of so-called 'philosophical' sci-fi, it tends to be entirely too full of itself, reading more like a regurgitation of the author's well-manicured ideals than any kind of story. Issac Asimov did this a lot, and it ruined Frank Herbert's Dune, when God-Emperor of Dune literally just became the main character spouting how his society was perfect and how he was the best ruler in human history because he was a 10,000 year old space slug. Philosophical sci-fi doesn't do it for me. Generally speaking, I love to be proven wrong. It focuses on the ideas and skimps on the characters, the aforementioned God-Emperor was essentially a series of conversations in various rooms of Leto's palace, with very little if any action to tie them together. Which is fine, if all you want your book to do is introduce a philosophical idea and work with it for hundreds of pages. But I don't. I want to write about cool people having cool adventures in space, because that's what I grew up with. There's a lot of Star Trek showing through in this project, since it combines the adventure I want to write with some philosophical musing, but what I hope is more laid-back, more the musing of one character and her trying to reach out to the world around her, the people she meets and takes information from. The other main character, the star-pilot, isn't very philosophically bent, which I hope will prevent the book from reading like an existentialism college course. He'll keep her grounded, and while he'll respect her and talk to her as an equal, he'll be upfront that he is not the person to talk about deep introspection with. And I think that's cool. I've been thinking about these two characters since early 2013, thinking of the plot I want to make and the setting they're a part of, and I'm excited to finally start writing it in November. I think it's a good time to do so, and it'll be a nice breather after submerging myself in fantasy for the past year. The problem is, of course, the setting. I have no idea how to worldbuild a space setting. But that's not the best way to describe it. I've already built a lot of the setting already. I have the FTL system pretty well plotted out, there's a lot of potential for conflict and adventure there. I have every populated world named and aligned to either a multi-system government or independent. I even have some of the classes of the various governmental navies in the setting. Rather, I'm not sure where to go from here. Not sure how to move from these disparate ideas into a full-fledged place I can write stories in. How do you create a world? How do you decide what worlds have access to tech-wise, what they look like, what kinds of people live there? Now, I'm talking about entire worlds, since I don't like how a lot of space settings treat planets as basically just glorified cities. If you're colonizing an entire planet, you're probably going to colonize as much of it as you can, not just a few plots of land. You're going to create entirely new cultures based around the planet, and definitely not just copy-pasting current Earth cultures. I don't like that, it feels lazy and kind of racist, assuming every current country is going to colonize an entire planet by themselves, without any kind of meaningful cross-pollination. If anything, that should be in the minority. But now I'm rambling, and that should really be its own post. I'm going to think about this, and share some of my thoughts in future posts. I just wanted to check in again and talk about where I'm going. I'll hopefully have a few posts worth about this setting, which I call Starline, after the name of the FTL drive. Plus, there's a few more posts I want to write about Salazarre, which I have in my drafts but haven't actually fleshed out. Onward and upward, I suppose.</summary></entry><entry><title type="html">Testing the Lights</title><link href="https://mattvelez.net/general/testing-the-lights" rel="alternate" type="text/html" title="Testing the Lights" /><published>2016-05-26T13:24:50-04:00</published><updated>2016-05-26T13:24:50-04:00</updated><id>https://mattvelez.net/general/testing-the-lights</id><content type="html" xml:base="https://mattvelez.net/general/testing-the-lights">&lt;p&gt;&lt;em&gt;Header image via &lt;a href=&quot;http://morguefile.com/p/935239&quot; target=&quot;_blank&quot;
+      rel=&quot;noopener noreferrer&quot;&gt;Morguefile&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Boy, you get this plan of making weekly blog posts, write down some good post ideas, and then four months pass by
+  without so much as a 'brb.'&lt;/p&gt;
+&lt;p&gt;Thankfully, I don't have much of an audience to disappoint yet.&lt;/p&gt;
+&lt;p&gt;So yeah, I lost track of time. Rather, I kept putting off writing a couple of buffer posts after that last Salazarre
+  thing, and then...yeah. It's May. Nearly the end of May, at that.&lt;/p&gt;
+&lt;p&gt;But there are a few things I'd like to talk about, a sort of report on what I've been doing since January. More for
+  my own benefit, I suppose, a sense of &quot;what have I &lt;em&gt;really&lt;/em&gt; been doing in four months?&quot;&lt;/p&gt;
+&lt;p&gt;Learning programming, as it happens.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Since November, I've been learning web development to improve my career. Writing is still primarily important to me,
+  pretty much the main thing I want to do as the years pass, but I'm not naive enough now to think I can keep doing data
+  entry into my 30s and 40s.&lt;/p&gt;
+&lt;p&gt;I mean, I &lt;em&gt;can&lt;/em&gt;, but I &lt;em&gt;really&lt;/em&gt; don't want to.&lt;/p&gt;
+&lt;p&gt;Data entry was a pretty decent plan when I was 22-24, I think. A simple, easy day job that paid my bills, albeit
+  poorly, while I could focus on my writing at night. I'd have worked on short stories I could publish, sent them to lit
+  magazines, and eventually built a name for myself by the time I actually had books I could send out to agents.&lt;/p&gt;
+&lt;p&gt;This was at the start of my writing 'career,' 22. I had a lot of fun ideas and settings, most of which I still think
+  about, with big plans on writing books in a couple months and refining them over the rest of the year. I wrote the
+  first draft of &lt;span style=&quot;text-decoration:underline;&quot;&gt;Airless&lt;/span&gt; in two months, surely my other books wouldn't
+  take much longer to hash out.&lt;/p&gt;
+&lt;p&gt;(I was a &lt;em&gt;fool&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;And this &lt;em&gt;was&lt;/em&gt; a good idea for those first couple of years. I wrote a bunch of short stories, mostly small,
+  experimental pieces that developed some of my pet settings/characters. I had a few 'publishable' story ideas, ones
+  specifically meant to be published rather than these cute small things I was making. I figured I'd have the data entry
+  to sustain me while I figured things out.&lt;/p&gt;
+&lt;p&gt;Then I lost my job in August 2013.&lt;/p&gt;
+&lt;p&gt;I didn't get a permanent one again until June 2014.&lt;/p&gt;
+&lt;p&gt;I still wrote during all that time, of course. I wrote some of my best stories, &lt;em&gt;The Baron Isley&lt;/em&gt;, for one.
+  Yet, I felt pressure to write more publishable stories, write things that I could sell to help keep myself afloat, and
+  after about a month or two of thinking like this, I started to hate writing.&lt;/p&gt;
+&lt;p&gt;Writing became a job, it was tedious and stressful, trying to force myself to write something that &lt;em&gt;would&lt;/em&gt; get
+  published, that would be more than just...cute, I suppose is the word. I write a lot of fun stories that I don't think
+  are very publishable, and maybe some people might differ, but that's when writing is most fun. Writing what I believed
+  other people wanted to read meant that I didn't write, since nothing seemed 'worth' writing.&lt;/p&gt;
+&lt;p&gt;I made a decision then, one I still stand by. I'm just going to write whatever I want to, without caring if it's
+  publishable or not. That's not why I'm doing this. I keep working on my ideas, start producing them (&lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt; being the prime example here), and then decide
+  later how to publish them. A good friend is a big proponent of self-publishing, and that seems like one of the better
+  routes for me, at least for the bulk of my work.&lt;/p&gt;
+&lt;p&gt;I don't think I could seriously sell a lamia protagonist to one of the major publishing houses, anyway.&lt;/p&gt;
+&lt;p&gt;But that still leaves the problem of what I do for money. Data entry started to lose its luster once I turned 26 and
+  realized I was in the latter half of my twenties, and I didn't have anywhere else to go. Hence, programming.&lt;/p&gt;
+&lt;p&gt;I've been doing it pretty consistently since November, and I'm only now applying to junior development jobs, since
+  there's been a lot to learn. Programming's been on my horizon since high school, but due to a combination of bad
+  teachers and ignorance about free learning tools, I hadn't done anything substantial with it.&lt;/p&gt;
+&lt;p&gt;I'm confident I can get a job as a junior developer/programmer before the end of the year, I think I've done more
+  than enough to earn it. Then I can start paying off my loans, saving money, and generally living the kind of life I
+  deserve. Not expecting all my problems to just go away, of course, but I know I'll see a big uptick in my moods
+  day-to-day, which will then trickle down into my writing.&lt;/p&gt;
+&lt;p&gt;So, pretty excited about that.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;As for what I've been writing lately...&lt;span style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt;.
+  Almost exclusively &lt;span style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt;. I don't even think I can
+  recall off the top of my head if I've written any more than a couple of short stories since January. It's just been
+  this one novel.&lt;/p&gt;
+&lt;p&gt;Recently, as of maybe a month ago, it surpassed 100k words. Which, normally, would be a huge milestone...but I'm not
+  even halfway done. I'm still in the first major arc of the story, and while that's now winding down and the end is
+  only a few chapters away...there's still so much more to do.&lt;/p&gt;
+&lt;p&gt;I expected this entire &lt;em&gt;book&lt;/em&gt; to be in the 120-150k range, maybe even shorter. It's the first book of two,
+  with possibility for more assuming it takes off and I learn what characters people want to see more of. It's the
+  first(-ish) series in the Salazarre cycle I've been thinking, with two other subseries I want to write, &lt;em&gt;and&lt;/em&gt; a
+  game I want to make in Game Maker.&lt;/p&gt;
+&lt;p&gt;I've clearly got enough ideas to last years, but I'm an impatient sort. Not to mention, the original idea for &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Witch&lt;/span&gt; is three years old (I think it was in June 2013 that I first came up
+  with Relia as a character), so it's been bouncing in my head for a while. Having a complete draft would be beyond
+  amazing, but I'm not in much of a place to get it done soon.&lt;/p&gt;
+&lt;p&gt;I could in all honesty keep writing this thing for the rest of the year, maybe finishing it altogether in
+  November/December. That, however, would probably drive me insane, and I'm starting to want to devote myself to other
+  stories, other novels. I want to do NaNoWriMo again this year, and I have the story I want to write for it, but I also
+  want to hash out the basic story structure beforehand, maybe write a few exploratory scenes/stories.&lt;/p&gt;
+&lt;p&gt;I want to be done with &lt;span style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt;, or at least have a
+  significant body of work I can mess around with before I write the rest.&lt;/p&gt;
+&lt;p&gt;So, here's what I think I'm going to do. Once I finish this first major arc (and I'll write a blog post about these
+  arcs later), I'm going to call it done.&lt;/p&gt;
+&lt;p&gt;Obviously it isn't, but it's as good a stopping place as any. I'm going to stick it in a drawer, figuratively, for a
+  few months and stop thinking about it. There are plenty of other things for me to work on in the meantime.&lt;/p&gt;
+&lt;p&gt;Once I'm done with my NaNoWriMo project, which I hope won't last into 2017, I'll pick &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Witch&lt;/span&gt; back up and revise it. There's a &lt;em&gt;lot&lt;/em&gt; I want to remove and
+  rewrite, and I think I can get it below 80k when all is said and done. That's what I'm hoping for, at least.&lt;/p&gt;
+&lt;p&gt;Then, well, I just finish it. Write the second half, revise &lt;em&gt;that&lt;/em&gt; down to however many words, then do the
+  editing process all over again with the entire work. That might carry me into 2018 at that point, hopefully with
+  another large work to occupy me in 2017. That's the point when I can start showing it to more people, start making it
+  'publishable,' all that jazz.&lt;/p&gt;
+&lt;p&gt;I don't much mind that I'm nowhere near that at this point, I just want this first half to be done.&lt;/p&gt;
+&lt;p&gt;The reason why it's so long can and will probably take up an entire blog post, but in short, I tend to ramble. As you
+  might have noticed. When I'm a bit unsure on where I want to go, I have the characters walk around and pay attention
+  to their scenery, or let dialogue drag on longer than it probably should. Things pick up when I have a clearer idea of
+  where I want to go, but then I get worried I'm moving too quickly and then force myself to write slower scenes.&lt;/p&gt;
+&lt;p&gt;But that's part and parcel for first drafts, at least for me. The editing process is when I get to take a hacksaw to
+  the draft and pick out what's most important, change the language to make myself more concise.&lt;/p&gt;
+&lt;p&gt;I just have to do it for over a hundred thousand words.&lt;/p&gt;
+&lt;p&gt;So uh, yeah.&lt;/p&gt;
+&lt;p&gt;Hope to see you as I keep writing away here, and I hope to have more content up in the forthcoming weeks.&lt;/p&gt;
+&lt;p&gt;I haven't actually written about &lt;em&gt;why&lt;/em&gt; I'm writing a lamia protagonist in this thing, so I should probably do
+  that for those of you wondering why...or wondering what a lamia is in the first place.&lt;/p&gt;
+&lt;p&gt;Also going to write a post when I do finally finish the first half of &lt;span style=&quot;text-decoration:underline;&quot;&gt;The
+    Witch and the Snake&lt;/span&gt;, so look forward to it.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="General" /><category term="general" /><category term="musing" /><category term="personal" /><category term="programming" /><summary type="html">Summary of what I've been doing with my life since January, as rambling and random as always.</summary></entry><entry><title type="html">Building Salazarre, pt. V</title><link href="https://mattvelez.net/writing/building-salazarre-pt-v" rel="alternate" type="text/html" title="Building Salazarre, pt. V" /><published>2016-01-23T13:00:20-05:00</published><updated>2016-01-23T13:00:20-05:00</updated><id>https://mattvelez.net/writing/building-salazarre-pt-v</id><content type="html" xml:base="https://mattvelez.net/writing/building-salazarre-pt-v">&lt;p&gt;You thought I forgot about this, didn't you?&lt;/p&gt;
+&lt;p&gt;Jeeze, about a month has passed since I last did this, hasn't it? And here I am again frantically writing this post
+  on a Thursday, two days before it's supposed to go live. I'm definitely interested in writing more about this, but
+  it's been getting a little harder to commit to writing these blog posts in advance.&lt;/p&gt;
+&lt;p&gt;Which, I suppose, is one of the more common problems concerning bloggers, really.&lt;/p&gt;
+&lt;p&gt;I'll probably muse on that a little as I write this, as it's also affecting my regular writing. I haven't made much
+  time to work on &lt;em&gt;The Witch and the Snake&lt;/em&gt; lately, which makes sense given the end of the year holidays. Yet,
+  it's part of a larger problem that's been plaguing the novel since I first started making it more than just a short
+  story. A problem I didn't have when I wrote my first novel experiment, &lt;em&gt;Airless&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Not sure what I want to do about that.&lt;/p&gt;
+&lt;p&gt;But anyway. Salazarre.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Last time, I talked about the original idea that birthed the setting, and the war story I eventually want to tell
+  about it. It's gonna be called &lt;em&gt;The Archangel's War&lt;/em&gt;, which is also the name of the in-universe conflict, and
+  so far, I have no freaking idea what it'll be about other than the ex-soldier who went AWOL to marry the man who stood
+  by her in the worst years of her life.&lt;/p&gt;
+&lt;p&gt;Originally, I'd intended them to be on the run, passing through towns and cities further from the front, which I call
+  the Riven Fields, heading toward the east. Civilization would decline as they went into Salazarre's frontier, the
+  places they hadn't had enough resources to expand into.&lt;/p&gt;
+&lt;p&gt;An idea I bounced around early on is that they would never be able to truly &lt;em&gt;leave &lt;/em&gt;Salazarre, as that soldier
+  would have a curse placed on her. She's remained bound to the land of the Archangel, that no matter how long they
+  traveled toward the dawning sun, they wouldn't get any farther than the last few cities. This curse was placed on
+  every soldier in Salazarre, and only removed once they completed their tour of duty. She went AWOL, hence she's still
+  cursed, and they can't truly run away from the war. They just have to make due.&lt;/p&gt;
+&lt;p&gt;I think it's a cool idea, but it doesn't quite work with how I eventually developed the magic of the setting. I have
+  a few Evernote documents saved on how the magic works in Salazarre, spent quite a few days at work thinking about it
+  and hashing it out. I'll probably get into the specifics in a later post, but the important part here is that it
+  doesn't work on living things. By which I mean animals and people. There's five aspects of magic (there always is in
+  fantasy, by no means am I trying to make this novel), and people are said to make up all five. You'd have to be
+  supremely powerful to affect something like that, and surprise surprise, the Archangel could.&lt;/p&gt;
+&lt;p&gt;It's a way for me to keep the magic from getting too powerful, where people can just shape others like clay, or
+  freeze the blood solid in their veins. Usually, the magic is either really well established and makes sense as to how
+  everything works (Sanderson's various magic systems, what I'm aiming for with Salazarre), or the complications of
+  magic are just never stated or outright handwaved (the Fireball spell in D&amp;amp;D specifically states that it cannot
+  set fire to ships. &lt;em&gt;Why&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;So, the idea of a character being cursed doesn't seem possible. Even if I broke the rules for her, I can't think up
+  how that curse would actually &lt;em&gt;work&lt;/em&gt;, how I could think of some logical explanation that doesn't seem too much
+  like...what's the magical equivalent of technobabble? Magibabble?&lt;/p&gt;
+&lt;p&gt;Magic in Salazarre is physical, very hands-on, it's used regularly for municipal and construction projects. There
+  aren't any intangible applications that work, at least not with how the system works right now.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Anyway. &lt;em&gt;The Archangel's War &lt;/em&gt;is interesting to me not just because of its protagonists, but also the ideas
+  I'd be working through, which I'd also touch upon with &lt;em&gt;The Witch and the Snake&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The in-universe Archangel's War has lasted for thousands of years, as old as the Archangel herself. I'm fascinated
+  with the idea of a long-lasting war. Not the endless series of advances, retreats, holding actions, but the societal
+  toll it takes. How a culture slowly acclimates itself to deal with the war. Where the idea that your nation's young
+  will go off and die in a conflict that you yourself only just survived in. A cycle that keeps going throughout your
+  lifetime, and while you might live in an era when the conflict is minimal, when there might not even be a draft, when
+  life can resume its normal course...you might not. The nation doesn't, can't, fight for a surrender, or to make their
+  government negotiate for a ceasefire. They fight because if they don't, everything's gonna get a whole lot worse.&lt;/p&gt;
+&lt;p&gt;Fantasy being what it is, I wanted to create a world where the war was an old thing, older than anyone can even
+  imagine. Where it was a fact of life, built into the very structure of the setting. Where all human civilization, from
+  the top levels of government down to the daily lives of the people, is affected by it, and how it has warped the very
+  preconceptions about the value and meaning of life.&lt;/p&gt;
+&lt;p&gt;How does a people still support a war that's been going on far longer than they've been alive? How does the
+  government justify it, holding together over countless years and still having people to man the walls?&lt;/p&gt;
+&lt;p&gt;A couple of years ago now, I read the Vonnegut novel &lt;em&gt;Mother Night&lt;/em&gt;, which is probably my favorite of his
+  works. It deals a lot with the effect propaganda has on people, following an American expat as he spoke Nazi
+  propaganda on German radio during the war, secretly spying on them for the OSS, then returned to America afterward. In
+  typical Vonnegut fashion, it all goes to hell in a handbasket, but it has a lot of interesting ideas on propaganda,
+  and the ways that people can misunderstand and twist around the words they hear, intentionally or not.&lt;/p&gt;
+&lt;p&gt;To me, the interwar period of WWI and WWII, and especially the early years of WWII, are pretty interesting. You've
+  got this long, terrible conflict of WWI, the worst conflict in human history, that decimated the idea that war was
+  this glorious, honorable action, the games of nations. Millions of people dead, human thought as a whole shifted,
+  countless veterans scarred and mentally ruined by the war, to the extent that they were called the Lost Generation.
+  Lost. Woeful. Melancholy. It's a powerful image.&lt;/p&gt;
+&lt;p&gt;And yet, despite this, merely twenty years after the armistice, the world gears up for another one. Despite all the
+  literature, all the thought, all the suffering, the nations arm themselves and prepare for another one.&lt;/p&gt;
+&lt;p&gt;And what &lt;em&gt;really&lt;/em&gt; makes me think is that isn't treated as this great, terrible conflict, this almost
+  apocalyptic war. No, World War II is often seen as, at least for America, our finest hour. We look back to WWII with a
+  kind of twisted fondness, as this cultural capstone that encapsulated our greatness and righteousness as a nation. We
+  didn't emerge from WWII as we did in WWI, we came out in the exact &lt;em&gt;opposite&lt;/em&gt; condition.&lt;/p&gt;
+&lt;p&gt;How did human thought turn so quickly back to war as this glorious thing, which we certainly feel about WWII, after
+  the image was so brutally shattered in WWI?&lt;/p&gt;
+&lt;p&gt;Well, the answer is certainly bigger than a simple blog post could explain, but it's behind a lot of my ideas about
+  Salazarre. What is it about war that keeps us coming back, even after we're burned so badly that it seems like we as a
+  people are lost and ruined? What does it say about the human mind that we embrace war as a collective, even while we
+  individually recognize how it ruins people?&lt;/p&gt;
+&lt;p&gt;How, then, in the Archangel's War, can we follow an ex-soldier whose life is ruined by war, yet see how it chugs
+  along without her? How the country cares for her personal damnation, but keeps the zealotry of its citizens at an
+  all-time high?&lt;/p&gt;
+&lt;p&gt;I've got no freaking clue.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I should really spend more time talking about this. I probably come across as pretty shallow, thinking about these
+  high-minded ideas but not actually digging deeply into them.&lt;/p&gt;
+&lt;p&gt;I do want to hold off on talking about &lt;em&gt;The Archangel's War&lt;/em&gt; because, well, I just don't have time for it
+  right now. I've already got another Salazarre novel in the works, and I've had more than enough trouble writing that
+  one.&lt;/p&gt;
+&lt;p&gt;I feel like the more I try to work on &lt;em&gt;The Witch and the Snake&lt;/em&gt;, the busier my life gets. Shortly after I
+  started writing this latest draft, I decided to start learning web development in an effort to get a better job.
+  Thankfully, I'm able to do much of that at my job, but sometimes I can't. That means I have to spend my night puzzling
+  over a programming problem, and not writing.&lt;/p&gt;
+&lt;p&gt;Granted, this doesn't come up very often. But then I decided to create this blog, and I've gotta write posts for it
+  every so often to hold to that weekly schedule. This post is currently around 1,600 words, which is already over my
+  daily quota of 1,000. I often write these at work, too, since I'll find any excuse I can not to do my job.&lt;/p&gt;
+&lt;p&gt;By the time I do get home, I'm pretty mentally drained. I'd generally prefer just relaxing and not really doing
+  anything more productive than reading or playing a story-intensive game. Writing can be pretty easy to fall by the
+  wayside, especially for a longer novel like what I'm trying to do now. A lot of the time, it feels like I'm just
+  grinding, telling the necessary exposition to set up one of the bigger scenes.&lt;/p&gt;
+&lt;p&gt;Which is probably not what a first draft's supposed to be, but I'm a bit beyond the honeymoon phase of this idea.
+  It's pretty old at this point.&lt;/p&gt;
+&lt;p&gt;So, it's taking me longer to work through this first draft than I'd care for. I don't really have the time that I
+  used to, like how I powered through &lt;em&gt;Airless&lt;/em&gt; in under two months because I was able to pretty much put my life
+  on hold. Not that I had much of a life &lt;em&gt;to&lt;/em&gt; put on hold at the time.&lt;/p&gt;
+&lt;p&gt;It's hard to keep motivation up sometimes, but I still feel like this is a story I need to tell. If it's kept my
+  interest for this long, almost three years, then it deserves its shot. I can't work around the fact that I still have
+  a 9-5, and that I'm trying to learn programming on top of this, but, well, not much I can do about that.&lt;/p&gt;
+&lt;p&gt;Maybe that was a little mopey, but I feel I should be honest here, of all places. This certainly isn't my place to
+  vent, I &lt;em&gt;do&lt;/em&gt; want to have the veneer of professionalism, but I also believe in being honest about myself, my
+  writing. It's an emotional process for me, and I want that to be at the forefront of my talking about it. I love
+  writing, but I don't have the kind of life that facilitates it yet.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Writing" /><category term="Salazarre" /><category term="stories" /><category term="writing" /><summary type="html">You thought I forgot about this, didn't you? Jeeze, about a month has passed since I last did this, hasn't it? And here I am again frantically writing this post on a Thursday, two days before it's supposed to go live. I'm definitely interested in writing more about this, but it's been getting a little harder to commit to writing these blog posts in advance. Which, I suppose, is one of the more common problems concerning bloggers, really. I'll probably muse on that a little as I write this, as it's also affecting my regular writing. I haven't made much time to work on The Witch and the Snake lately, which makes sense given the end of the year holidays. Yet, it's part of a larger problem that's been plaguing the novel since I first started making it more than just a short story. A problem I didn't have when I wrote my first novel experiment, Airless. Not sure what I want to do about that. But anyway. Salazarre. Last time, I talked about the original idea that birthed the setting, and the war story I eventually want to tell about it. It's gonna be called The Archangel's War, which is also the name of the in-universe conflict, and so far, I have no freaking idea what it'll be about other than the ex-soldier who went AWOL to marry the man who stood by her in the worst years of her life. Originally, I'd intended them to be on the run, passing through towns and cities further from the front, which I call the Riven Fields, heading toward the east. Civilization would decline as they went into Salazarre's frontier, the places they hadn't had enough resources to expand into. An idea I bounced around early on is that they would never be able to truly leave Salazarre, as that soldier would have a curse placed on her. She's remained bound to the land of the Archangel, that no matter how long they traveled toward the dawning sun, they wouldn't get any farther than the last few cities. This curse was placed on every soldier in Salazarre, and only removed once they completed their tour of duty. She went AWOL, hence she's still cursed, and they can't truly run away from the war. They just have to make due. I think it's a cool idea, but it doesn't quite work with how I eventually developed the magic of the setting. I have a few Evernote documents saved on how the magic works in Salazarre, spent quite a few days at work thinking about it and hashing it out. I'll probably get into the specifics in a later post, but the important part here is that it doesn't work on living things. By which I mean animals and people. There's five aspects of magic (there always is in fantasy, by no means am I trying to make this novel), and people are said to make up all five. You'd have to be supremely powerful to affect something like that, and surprise surprise, the Archangel could. It's a way for me to keep the magic from getting too powerful, where people can just shape others like clay, or freeze the blood solid in their veins. Usually, the magic is either really well established and makes sense as to how everything works (Sanderson's various magic systems, what I'm aiming for with Salazarre), or the complications of magic are just never stated or outright handwaved (the Fireball spell in D&amp;amp;D specifically states that it cannot set fire to ships. Why). So, the idea of a character being cursed doesn't seem possible. Even if I broke the rules for her, I can't think up how that curse would actually work, how I could think of some logical explanation that doesn't seem too much like...what's the magical equivalent of technobabble? Magibabble? Magic in Salazarre is physical, very hands-on, it's used regularly for municipal and construction projects. There aren't any intangible applications that work, at least not with how the system works right now. Anyway. The Archangel's War is interesting to me not just because of its protagonists, but also the ideas I'd be working through, which I'd also touch upon with The Witch and the Snake. The in-universe Archangel's War has lasted for thousands of years, as old as the Archangel herself. I'm fascinated with the idea of a long-lasting war. Not the endless series of advances, retreats, holding actions, but the societal toll it takes. How a culture slowly acclimates itself to deal with the war. Where the idea that your nation's young will go off and die in a conflict that you yourself only just survived in. A cycle that keeps going throughout your lifetime, and while you might live in an era when the conflict is minimal, when there might not even be a draft, when life can resume its normal course...you might not. The nation doesn't, can't, fight for a surrender, or to make their government negotiate for a ceasefire. They fight because if they don't, everything's gonna get a whole lot worse. Fantasy being what it is, I wanted to create a world where the war was an old thing, older than anyone can even imagine. Where it was a fact of life, built into the very structure of the setting. Where all human civilization, from the top levels of government down to the daily lives of the people, is affected by it, and how it has warped the very preconceptions about the value and meaning of life. How does a people still support a war that's been going on far longer than they've been alive? How does the government justify it, holding together over countless years and still having people to man the walls? A couple of years ago now, I read the Vonnegut novel Mother Night, which is probably my favorite of his works. It deals a lot with the effect propaganda has on people, following an American expat as he spoke Nazi propaganda on German radio during the war, secretly spying on them for the OSS, then returned to America afterward. In typical Vonnegut fashion, it all goes to hell in a handbasket, but it has a lot of interesting ideas on propaganda, and the ways that people can misunderstand and twist around the words they hear, intentionally or not. To me, the interwar period of WWI and WWII, and especially the early years of WWII, are pretty interesting. You've got this long, terrible conflict of WWI, the worst conflict in human history, that decimated the idea that war was this glorious, honorable action, the games of nations. Millions of people dead, human thought as a whole shifted, countless veterans scarred and mentally ruined by the war, to the extent that they were called the Lost Generation. Lost. Woeful. Melancholy. It's a powerful image. And yet, despite this, merely twenty years after the armistice, the world gears up for another one. Despite all the literature, all the thought, all the suffering, the nations arm themselves and prepare for another one. And what really makes me think is that isn't treated as this great, terrible conflict, this almost apocalyptic war. No, World War II is often seen as, at least for America, our finest hour. We look back to WWII with a kind of twisted fondness, as this cultural capstone that encapsulated our greatness and righteousness as a nation. We didn't emerge from WWII as we did in WWI, we came out in the exact opposite condition. How did human thought turn so quickly back to war as this glorious thing, which we certainly feel about WWII, after the image was so brutally shattered in WWI? Well, the answer is certainly bigger than a simple blog post could explain, but it's behind a lot of my ideas about Salazarre. What is it about war that keeps us coming back, even after we're burned so badly that it seems like we as a people are lost and ruined? What does it say about the human mind that we embrace war as a collective, even while we individually recognize how it ruins people? How, then, in the Archangel's War, can we follow an ex-soldier whose life is ruined by war, yet see how it chugs along without her? How the country cares for her personal damnation, but keeps the zealotry of its citizens at an all-time high? I've got no freaking clue. I should really spend more time talking about this. I probably come across as pretty shallow, thinking about these high-minded ideas but not actually digging deeply into them. I do want to hold off on talking about The Archangel's War because, well, I just don't have time for it right now. I've already got another Salazarre novel in the works, and I've had more than enough trouble writing that one. I feel like the more I try to work on The Witch and the Snake, the busier my life gets. Shortly after I started writing this latest draft, I decided to start learning web development in an effort to get a better job. Thankfully, I'm able to do much of that at my job, but sometimes I can't. That means I have to spend my night puzzling over a programming problem, and not writing. Granted, this doesn't come up very often. But then I decided to create this blog, and I've gotta write posts for it every so often to hold to that weekly schedule. This post is currently around 1,600 words, which is already over my daily quota of 1,000. I often write these at work, too, since I'll find any excuse I can not to do my job. By the time I do get home, I'm pretty mentally drained. I'd generally prefer just relaxing and not really doing anything more productive than reading or playing a story-intensive game. Writing can be pretty easy to fall by the wayside, especially for a longer novel like what I'm trying to do now. A lot of the time, it feels like I'm just grinding, telling the necessary exposition to set up one of the bigger scenes. Which is probably not what a first draft's supposed to be, but I'm a bit beyond the honeymoon phase of this idea. It's pretty old at this point. So, it's taking me longer to work through this first draft than I'd care for. I don't really have the time that I used to, like how I powered through Airless in under two months because I was able to pretty much put my life on hold. Not that I had much of a life to put on hold at the time. It's hard to keep motivation up sometimes, but I still feel like this is a story I need to tell. If it's kept my interest for this long, almost three years, then it deserves its shot. I can't work around the fact that I still have a 9-5, and that I'm trying to learn programming on top of this, but, well, not much I can do about that. Maybe that was a little mopey, but I feel I should be honest here, of all places. This certainly isn't my place to vent, I do want to have the veneer of professionalism, but I also believe in being honest about myself, my writing. It's an emotional process for me, and I want that to be at the forefront of my talking about it. I love writing, but I don't have the kind of life that facilitates it yet.</summary></entry><entry><title type="html">The Way of Kings: A Review</title><link href="https://mattvelez.net/reviews/the-way-of-kings-a-review" rel="alternate" type="text/html" title="The Way of Kings: A Review" /><published>2016-01-16T13:00:26-05:00</published><updated>2016-01-16T13:00:26-05:00</updated><id>https://mattvelez.net/reviews/the-way-of-kings-a-review</id><content type="html" xml:base="https://mattvelez.net/reviews/the-way-of-kings-a-review">&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/gp/product/0765326353&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-710&quot;
+      src=&quot;/assets/images/2015/12/thewayofkings.jpg&quot; alt=&quot;TheWayOfKings&quot; width=&quot;825&quot; height=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I've never been one to write long reviews. I tend to lose track of what I want to say. I've got a little checklist of
+  ideas I want to write about at the bottom of this post, erasing them once I've dealt with them. I'm a scatterbrain,
+  and there's much I wanted to talk about.&lt;/p&gt;
+&lt;p&gt;A lot of the time, my opinions tend to be pretty cut and dry, I don't have much to say. I watched &lt;em&gt;Creed&lt;/em&gt;
+  recently, thought it was an awesome movie, but I found I didn't have much to say about it with my friends on the ride
+  back. Plenty of riveting scenes, intriguing spins on the &lt;em&gt;Rocky&lt;/em&gt; formula...but it didn't feel like anything we
+  needed to dissect for too long.&lt;/p&gt;
+&lt;p&gt;I'm not terse with everything, though. Certainly not with &lt;span style=&quot;text-decoration:underline;&quot;&gt;The Way of
+    Kings&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I realize I'm a little late to the party. &lt;a href=&quot;https://www.goodreads.com/book/show/7235533-the-way-of-kings&quot;
+    target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Goodreads&lt;/a&gt; says it came out in 2010, and it's pretty well-known at this
+  point. People have formed their opinions of it. I thought I did, too, a year ago when I gave up on it early in Part
+  II. Yet here we are.&lt;/p&gt;
+&lt;p&gt;I'm not gonna summarize too much here. Chances are you already know about this book, or you've at least heard about
+  it. If you haven't, read the publisher's blurb via Goodreads up above, that's about as much as you need.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;There are few writers out there who confound me as much as Brandon Sanderson. I admire the hell out of him, I admire
+  the effort he puts into his work, I sure as hell admire his dedication; &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt; was his &lt;em&gt;13th &lt;/em&gt;novel, and only his second published. This
+  was over the span of only a few years, maybe as much as a decade or so.&lt;/p&gt;
+&lt;p&gt;Like...&lt;em&gt;how&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I haven't read everything he's put out there. So far, just the first three &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt; novels, &lt;span style=&quot;text-decoration:underline;&quot;&gt;Legion: Skin
+    Deep&lt;/span&gt;, and &lt;span style=&quot;text-decoration:underline;&quot;&gt;The Way of Kings&lt;/span&gt;. I've noticed a few trends he
+  likes putting into his work, which I'll allude to as I get through this post. Not sure where to start, though.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Kings&lt;/span&gt; is probably the most Sanderson novel I've read. It's very
+  emblematic of what I like about him, what keeps me reading, and also what I don't enjoy. It's what makes me put the
+  book down for ten, twenty minutes at a time as I argue with myself about a character's choices, or their depiction in
+  the narrative, or some setting detail that stuck out at me.&lt;/p&gt;
+&lt;p&gt;If nothing else, he makes me think. Though maybe not in the ways he intends.&lt;/p&gt;
+&lt;p&gt;He's an excellent writer, which is why I'm reading him in the first place. I should hope so, dude's teaching creative
+  writing at BYU. At times, his style can get schlocky, spinning out an obvious idea or emotion by repeating himself
+  with short sentences. Like this. Just like this.&lt;/p&gt;
+&lt;p&gt;He spends a little too much time detailing his characters' emotions, as if he's not confident that I can sympathize
+  with them.&lt;/p&gt;
+&lt;p&gt;I'm also not into his dialogue some of the time; it can either be awkward and a little patronizing (Kaladin's
+  philosophical conversations with Syl) or just painful (every time Shallan tries to be witty).&lt;/p&gt;
+&lt;p&gt;All this is pretty minor, though. He does a great job with setting description (more on that later) and especially
+  fight descriptions; his fights are all very clear, very quick, which is super hard to do.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In terms of worldbuilding, he's easily world-class. One of the best in the business, especially in creating the
+  strange worlds he does. &lt;span style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt; and its planet of ash and, uh, mist,
+  and &lt;span style=&quot;text-decoration:underline;&quot;&gt;Kings&lt;/span&gt; with its hurricanes. I don't think I've seen such a strange
+  planet as Roshar realized so well. He's thought the hell out of it, which makes sense given that he's spent somewhere
+  in the realm of &lt;em&gt;twenty years&lt;/em&gt; creating it.&lt;/p&gt;
+&lt;p&gt;Makes my two years of Salazarre seem like nothing.&lt;/p&gt;
+&lt;p&gt;Roshar is a place battered constantly by magical hurricanes, such that most of the (super?)continent the story takes
+  place on has evolved to survive it. He gets &lt;em&gt;really&lt;/em&gt; into it, like how all the cities are built in the shade of
+  rock formations or chasms. How all the non-human life is crustacean for some reason, and how people get food when they
+  can't just conjure it. He presents it all so matter-of-course that I don't even question the world when he describes
+  it. Of &lt;em&gt;course&lt;/em&gt; the trees and grass recede into the ground, why wouldn't they?&lt;/p&gt;
+&lt;p&gt;I get really inspired by the ways he details the little things about the world, the intricate details that really
+  give a sense of human creativity in the way they define their world. How the main religion praises the symmetry of
+  names, so you have like Kelek or Shallan, either perfectly symmetrical or just one syllable off. How the language has
+  something akin to Chinese characters, and how the nobility uses these characters in their house banners, two
+  characters artistically depicted into a sword and tower or a tower and bull.&lt;/p&gt;
+&lt;p&gt;It gives the sense that he just had a random idea one day about Roshar, wrote it down, and after compiling them,
+  picked the ones he could really play around with. Really dug deep and figured out how to get as much mileage as he
+  could. Which is the most fun part about worldbuilding, at least to me.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Here's a setting detail I'm not so keen about.&lt;/p&gt;
+&lt;p&gt;The genders in &lt;span style=&quot;text-decoration:underline;&quot;&gt;Kings&lt;/span&gt; are segregated. It's much more intricate than
+  the real world, but in a socio-religious way that gives men and women a kind of 'true' separate but equal perception.
+  Men do mostly physical labor: farming, fighting, carpentry, and women do mental: reading, writing, accounting.&lt;/p&gt;
+&lt;p&gt;Most men actually can't read, though there's some crossover between the two, as medicine and surgery are considered
+  masculine professions.&lt;/p&gt;
+&lt;p&gt;It's all tied into the major religion of the setting, which is very hierarchical in and of itself. Everything and
+  everyone has its place. Everyone adheres to it, even one character who actually doesn't believe in the religion. It's
+  their way of life, after all.&lt;/p&gt;
+&lt;p&gt;It's interesting, to say the least, but I feel he goes too far with it. Women aren't allowed to show their
+  non-dominant hands, unless they're wearing a glove or hiding it in an overly-long sleeve. Men, as far as I know, have
+  no similar limitation. All that limits them is not knowing how to read, and there's no big faux-pas that prohibits
+  them; it's just not something they're expected to do, but they can do it if they're in the right career for it or have
+  the means.&lt;/p&gt;
+&lt;p&gt;It even goes down to the food that they eat, where men eat meat and mostly savory dishes and women eat fruit and
+  mostly sweet dishes.&lt;/p&gt;
+&lt;p&gt;Which is where he throws me.&lt;/p&gt;
+&lt;p&gt;I don't like gender segregation. I'm willing to meet Sanderson halfway and I appreciate the ideas he has regarding
+  gender segregation in &lt;span style=&quot;text-decoration:underline;&quot;&gt;Kings&lt;/span&gt;...but it's still segregation. It's well
+  thought out and he goes at lengths to portray men and women seeing each other as equals, but there's a lot of
+  undercurrents about it that I don't appreciate.&lt;/p&gt;
+&lt;p&gt;I don't like how only the men fight, and how it's never brought up that women don't do it. I don't like how there
+  aren't any women who want to fight, in a novel that &lt;em&gt;really&lt;/em&gt; obsessed with fighting and killing. As if it's
+  like this subconscious thing that a woman would never want to pick up a sword or spear for whatever reason.&lt;/p&gt;
+&lt;p&gt;I don't like how women have to shield parts of their body, a part that's actually pretty essential to everyday
+  life...for no reason. I don't think he ever explains &lt;em&gt;why&lt;/em&gt; women have to do it, it's just a modesty thing.
+  Except it's one that doesn't make any sense to me.&lt;/p&gt;
+&lt;p&gt;And, you know, I wouldn't mind this so much if there was some meta-reasoning for it. Like if it's meant to lampshade
+  real-world female modesty, and say some things about that.&lt;/p&gt;
+&lt;p&gt;Except...it doesn't. It's presented pretty honestly, and never really argued with or deconstructed. It's just
+  something everyone does, and everyone's pretty okay with it. It's another feature of the world, like the Shards or the
+  highstorms.&lt;/p&gt;
+&lt;p&gt;Gender perceptions are a big deal these days, with a lot of people fighting against roles they have no choice over.
+  You can't choose what genitals you're born with, so you shouldn't be expected to act a certain way &lt;em&gt;because&lt;/em&gt; of
+  them.&lt;/p&gt;
+&lt;p&gt;Except in Roshar, apparently.&lt;/p&gt;
+&lt;p&gt;There's &lt;em&gt;no&lt;/em&gt; social unrest about this system. None at all. No women who want to fight in a world constantly at
+  war, who are always pretty okay at being in more passive roles, no matter how essential to everyday life they might
+  be. Everyone's just dandy about being shunted into these societal roles, with little to no movement between. There
+  aren't any roadblocks to these characters because they aren't written to want anything outside of what their genders
+  demand of them.&lt;/p&gt;
+&lt;p&gt;I'll be the first to admit that having a fantasy world means you don't have to adhere strictly to modern day societal
+  norms and sociopolitical thought. You get to play around.&lt;/p&gt;
+&lt;p&gt;But I guess this is where I draw the line. The fact that it's never a problem bothers me, like everyone's forced to
+  act in a very particular way just so Sanderson doesn't have to worry too much about representing both genders in a
+  wide variety of roles. It suits how he believes men and women should act, and I don't agree with it.&lt;/p&gt;
+&lt;p&gt;Give me a woman with a sword, Sanderson, who's had her life devastated by this world at endless war and who can only
+  find peace in inflicting that pain upon others. God knows you love guys with that shit. And don't relegate your female
+  fighters to mythological angels and paladins, those don't count.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I'm pretty sure one of the recurring characters is a Latino stereotype.&lt;/p&gt;
+&lt;p&gt;His name is Lopen. He's described as having a really quick manner of speech, his words clipped and falling into
+  themselves, like how a lot of scrappy Latino characters talk. He uses a slang word, 'gancho,' all the time, which
+  sounds like a word someone would think a Hispanic person might say.&lt;/p&gt;
+&lt;p&gt;It's the only example of a real-world racial stereotype in the setting at all. Pretty much everything else is
+  original, but this particular character just screams 'Latino stereotype' to me. I'm wondering why he's there in the
+  first place.&lt;/p&gt;
+&lt;p&gt;Sanderson likes throwing references to people he knows in his stories, so that's about the only explanation I have.
+&lt;/p&gt;
+&lt;p&gt;It's lazy writing. This character hasn't done anything of significance so far, he just showed up one day and came
+  into the main character's crew. He's one of the 'main' members of that crew, a big help to the protagonist, Kaladin.
+  Another fun personality to flesh them out. Pretty much his only other character trait is that he has one arm, which
+  Sanderson doesn't really do anything with. It's mentioned that he has one arm and can't fight normally, but we never
+  really see him or the characters around him bothered by it, so it's just a background detail.&lt;/p&gt;
+&lt;p&gt;It's a problem I noticed in his other book, &lt;span style=&quot;text-decoration:underline;&quot;&gt;Legion: Skin Deep&lt;/span&gt;, where
+  one of the main characters was a wealthy, elderly Korean man who acts like a gangsta, because apparently Sanderson
+  finds that endearing. The character is supposed to be sympathetic because of the 'elderly Korean gangster'
+  juxtaposition. The only purpose the character serves is to be an exposition fairy. We aren't given much backstory of
+  the guy, reasons for his actions, all we're led to believe is important about him is that he's an elderly Korean
+  gangsta rapper.&lt;/p&gt;
+&lt;p&gt;It's the same thing here. The &lt;em&gt;only thing we're led to believe matters&lt;/em&gt; about the character Lopen, other than
+  having one arm, is that he acts like how a white guy would expect a Latino to act.&lt;/p&gt;
+&lt;p&gt;As a Latino myself, and as someone who cares about how race is used in fiction, &lt;em&gt;fuck that&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I've been a little harsh so far. Let's switch gears for a moment.&lt;/p&gt;
+&lt;p&gt;I really like the way Sanderson describes his settings. Every scene has a strong sense of place, and for recurring
+  places that we expect to see often, like Kaladin's war camp and Shallan's library, I feel like I know those places. He
+  doesn't even spend much time describing them in the moment, but he always manages to find something new to detail when
+  we revisit it, giving the area that much more life.&lt;/p&gt;
+&lt;p&gt;I struggle with it in my writing. In &lt;span style=&quot;text-decoration:underline;&quot;&gt;The Witch and the Snake&lt;/span&gt;, I have
+  the characters spend most of the first half in a small mining city, which I want them to get to know, really
+  developing this place and making it feel lived-in. But I'm not sure how to do that, certainly not with something as
+  big as a city. I have a few set pieces, the inn the characters stay at, the army camp inside the mining quarry, but I
+  don't know how to tie them into the city, making them parts of a larger whole.&lt;/p&gt;
+&lt;p&gt;My working theory is to describe these places enough, such that the city feels described and lifelike by the end. I
+  don't know how to do that, but I think Sanderson does. He did it with Luthadel in &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt;, and he's doing it with Kharbranth in &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Kings&lt;/span&gt;&lt;em&gt;.&lt;/em&gt; We don't see everything in these cities, but we see enough
+  that they feel like actual cities.&lt;/p&gt;
+&lt;p&gt;Maybe I just need to add more street and neighborhood names. Maybe it's a problem of characters, I don't have enough
+  to give a wide enough view of life in this city. Maybe it's both.&lt;/p&gt;
+&lt;p&gt;I'm still trying to figure it out, but there's a lot I can learn from Sanderson in that regard.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;On the other hand.&lt;/p&gt;
+&lt;p&gt;One of the more general problems I have with Sanderson is his characters. He loves using archtypes and reusing them
+  throughout his work, to the point that it's like he plopped an existing character into Roshar and just kept writing
+  him as normal.&lt;/p&gt;
+&lt;p&gt;Szeth, Kaladin, Dalinar, and Shallan all feel like the main characters of &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt;, with some appropriate changes to distinguish them, but still
+  very much in the same mold. As such, that colors their narrative, because their actions feel like the same actions
+  their &lt;span style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt; counterparts would make, characters in an entirely
+  different setting who should have different needs.&lt;/p&gt;
+&lt;p&gt;My favorite character of the novel, Jasnah Kholin, is my favorite in part because she isn't something I've seen
+  Sanderson do much. He's averse to confident women in powerful, influential roles, I've noticed. The only female POV
+  characters I've seen have been shy, introverted, anxious. Vin, Shallan. They're characters in very low places,
+  relatively, and fight to essentially grow up in a system that wants nothing to do with them. One that's fighting
+  &lt;em&gt;against&lt;/em&gt; them.&lt;/p&gt;
+&lt;p&gt;Any powerful women in his stories are essentially either obstacles to be overcome, or villains to defeat. Shan in
+  &lt;span style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt;, for example. Jasnah had that vibe to her as well, in the
+  beginning.&lt;/p&gt;
+&lt;p&gt;To his credit, though, I haven't seen many women in his work serve only as love interests to the males. Usually those
+  love interests are background characters.&lt;/p&gt;
+&lt;p&gt;I like Jasnah because he at least gives that archtype some depth. He writes Jasnah as not in touch with her emotions,
+  and that makes her hard to talk to. It's nice he actually realizes these powerful women are still &lt;em&gt;people&lt;/em&gt;, not
+  these like monoliths that his scrappy girls have to overcome. Jasnah seems like she has some secrets that I kind of
+  want to figure out.&lt;/p&gt;
+&lt;p&gt;I also just like confident, aristocratic female characters like her in general, so he also happens to be playing into
+  my interests here.&lt;/p&gt;
+&lt;p&gt;If he wants to reuse characters, that's his choice. But he doesn't do anything unpredictable with them.&lt;/p&gt;
+&lt;p&gt;Seeing Shallan's story come to its climax didn't do anything for me. I had no sympathy because I saw it coming a mile
+  away, there was nothing surprising or novel for me to feel interested or invested in. I have little sympathy for
+  either her or Kaladin because almost everything they do is so dictated by their character archtype that it doesn't
+  feel like they're making real decisions. It's more like Sanderson's going through the motions of creating characters,
+  having them do things because that's what he thinks fantasy protagonists &lt;em&gt;do&lt;/em&gt; in these situations.&lt;/p&gt;
+&lt;p&gt;No individuality, no cleverness on the part of their personalities. I can compare them easily, on a nearly 1:1 ratio,
+  to other characters of his. It makes their struggles boring because I've seen them play out already. I've seen how he
+  handles these conflicts, and I don't feel much of a need to see it again.&lt;/p&gt;
+&lt;p&gt;Really, what keeps me invested are the little ways he distinguishes the characters, like Kaladin having what is
+  essentially a fairy companion, or Shallan's delving into lore, which I do legitimately like. Sanderson's always been
+  great with lore, it was one of the few things carrying me through the latter two &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt; books after &lt;span style=&quot;text-decoration:underline;&quot;&gt;Final
+    Empire&lt;/span&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Speaking about fairy companions...&lt;/p&gt;
+&lt;p&gt;The spren are a neat idea...almost. They're essentially spirits/fairies that manifest with natural forces in the
+  world, so you have like windspren, rainspren, I think there's firespren, things like that. I like the idea of spirits
+  as these sort of extant things in the world, tied to one element and visually distinctive from each other. Adds a neat
+  kind of liveliness to everything, very unique.&lt;/p&gt;
+&lt;p&gt;Except he goes &lt;em&gt;way&lt;/em&gt; too far with it.&lt;/p&gt;
+&lt;p&gt;You have things like painspren, which congregate around something experiencing pain. Rotspren around infected wounds.
+  Musicspren. &lt;em&gt;Creationspren&lt;/em&gt;, when Shallan draws a picture or someone writes a poem. Anticipationspren. It gets
+  ridiculous after a certain point, there seems to be a spren for &lt;em&gt;everything&lt;/em&gt;, and it just looks like he's
+  trying &lt;em&gt;way&lt;/em&gt; too hard to make these things a major selling point of the world.&lt;/p&gt;
+&lt;p&gt;He's never consistent with them, either. You'll have characters feeling one strong emotion, but there isn't a spren
+  associated with it for some reason, despite the fact that he just described a different emotion as having an
+  accompanying spren. I never know when to expect them, and it feels random most of the time.&lt;/p&gt;
+&lt;p&gt;Besides, people often feel more than one emotion at a time, so just limiting it to one spren feels a little
+  lackluster. Not to mention, there's a few specific things that &lt;em&gt;don't&lt;/em&gt; have spren for whatever reason. I
+  haven't seen a depressionspren when Kaladin or Shallan are in the depths of despair, or a hungerspren for when the
+  bridge crews are starving. Or any other countless kinds of spren; I have no idea where the boundary's supposed to be.
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I've noticed that Sanderson has a lot of slavery in his work. If not outright slavery, then a strictly mandated lower
+  class that is essentially the same thing, ala the skaa of &lt;span style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt;.
+&lt;/p&gt;
+&lt;p&gt;Now, I understand that slavery's existed since the dawn of civilization, and it persists even in the modern day. It
+  says something about humanity that we continue to practice it. Sanderson isn't necessarily promoting slavery by
+  including it in his novels, and he &lt;em&gt;certainly&lt;/em&gt; isn't saying that a particular race are 'meant' to be a slave
+  race.&lt;/p&gt;
+&lt;p&gt;But I don't think you &lt;em&gt;have&lt;/em&gt; to have slavery in a fantasy world. Including it might be more realistic, given
+  the expected social norms of a classical/medieval/Renaissance/etc. setting, but it's also a &lt;em&gt;fantasy&lt;/em&gt; world.
+  You get to have magic and fantastic creatures, different worlds and actual, interactive deities, couldn't you also
+  just fudge it and have people realize 'hey, slavery kind of sucks, let's &lt;em&gt;not&lt;/em&gt; do that' at some point? Couldn't
+  you justify a world with more modern sensibilities and representation, even if it's technology is a little backwards?
+&lt;/p&gt;
+&lt;p&gt;Pretty sure that's the &lt;em&gt;whole point&lt;/em&gt; of -punk movement? Steampunk, dieselpunk, cyberpunk, etc.&lt;/p&gt;
+&lt;p&gt;I plan to write an entire blog post about this sometime, but I don't buy that you have to include these pretty
+  horrible traits about humanity just to make your world more 'authentic.' Pretty sure you can give that authenticity
+  with characters we see ourselves recognizing, or developing a world that is interesting in different ways than how it
+  subjugates certain people.&lt;/p&gt;
+&lt;p&gt;Now, this kind of flies in the face of what I was saying earlier, I didn't like how Sanderson added gender
+  segregation to Roshar, to make the world more distinct from our own and to give women a more relative kind of
+  equality. It's arguably a good thing if it gives them equality, right? It's not slavery, after all.&lt;/p&gt;
+&lt;p&gt;Well...not really. It's equality through limitation. The genders are equal because they're limited in what their
+  genders allow them to do, it just so happens that these limitations are very complementary toward each other. Like
+  slavery, it lessens their individual freedoms.&lt;/p&gt;
+&lt;p&gt;It's just another chain, no matter how many times he tells us that it isn't.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I promise I'm almost done.&lt;/p&gt;
+&lt;p&gt;I've never liked how Sanderson glorifies combat. &lt;span style=&quot;text-decoration:underline;&quot;&gt;Mistborn&lt;/span&gt; was
+  especially bad, with Vin and Elend's half-brother whose name escapes me essentially murdering dozens of innocent
+  guards, with absolutely no moral or legal repercussions. The third book has Elend killing hundreds of the
+  mostly-sentient &lt;em&gt;koloss&lt;/em&gt; just because he feels sad. That's it. That's the only reason. And I'm supposed to
+  sympathize with him?&lt;/p&gt;
+&lt;p&gt;It's horribly unnecessary. &lt;span style=&quot;text-decoration:underline;&quot;&gt;Kings&lt;/span&gt; is definitely better in that regard,
+  there's even a character who realizes that mass killing &lt;em&gt;probably &lt;/em&gt;isn't a good thing. He's got some
+  interesting justifications for it, as well, though explaining them would be spoilery. Suffice to say, towards the end
+  of the novel, some of the characters realize that their entire world's constantly at war, and that's actually rather
+  unnatural.&lt;/p&gt;
+&lt;p&gt;It remains to be seen where he goes with it, though he could do some really cool, sneaky things. Throughout the
+  novel, Kaladin keeps realizing that the feeling of a spear in his hands is just &lt;em&gt;so right&lt;/em&gt; to him, which I kind
+  of think is bullshit. Except, if it's influenced by this particular spoiler, it becomes an interesting reasoning for
+  why so many fantasy protagonists love fighting and killing, sometimes to unrealistic extremes.&lt;/p&gt;
+&lt;p&gt;He could also go the opposite way and free his characters of any guilt or moral implications because hey, it wasn't
+  technically their fault, right?&lt;/p&gt;
+&lt;p&gt;Protagonists overly fond of fighting and killing isn't something I like much, and by no means am I judging Sanderson
+  for having it. He's no 'worse' than anyone else who does this, he's just the most relevant example to this blog post.
+&lt;/p&gt;
+&lt;p&gt;I think he has the possibility to do something interesting with this reveal, and I hope he'll follow through in the
+  ways I'm hoping. Readers of the novel hopefully already know what I'm talking about, but if not, I'll let you know
+  privately.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;So that's it. Those are my thoughts on &lt;span style=&quot;text-decoration:underline;&quot;&gt;The Way of Kings&lt;/span&gt;. Over four
+  thousand words. The first draft took a few days just to hash out.&lt;/p&gt;
+&lt;p&gt;It has a lot of good and bad things, both intertwined enough that I can't find myself saying I enjoyed it, but I also
+  can't say it was a waste of my time, either. It's emblematic of what fantasy is these days, adhering to both positive
+  and negative stereotypes of epic fantasy, and also reinforces what I want, and what I don't want, in my own fantasy
+  writing.&lt;/p&gt;
+&lt;p&gt;Do I recommend it? That depends. I can't give a general recommendation, because I know my expectations and likes are
+  different than other people's. Chances are if you've read this far, that's been made more than apparent. There's a lot
+  I like about this book, a lot I don't. The parts I don't might be insignificant to you, or might be even more
+  important than they are to me.&lt;/p&gt;
+&lt;p&gt;So really, my recommendation is look at the publisher's blurb. Read a few other reviews, see if they grab you. See if
+  you have people who would want to discuss it (I sure will!). Read it if you'd like, or don't.&lt;/p&gt;
+&lt;p&gt;As for me, I'm only halfway through. And I suppose that says something about me, and about Sanderson's work, that I'm
+  gonna read another thousand pages of it.&lt;/p&gt;
+&lt;p&gt;Let's rock, &lt;span style=&quot;text-decoration:underline;&quot;&gt;Words of Radiance&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can find Brandon at &lt;a href=&quot;http://brandonsanderson.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;his
+      website&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt; (03/13/2019): I didn't read another thousand pages. I got about 10% into &lt;span
+    style=&quot;text-decoration:underline;&quot;&gt;Words of Radiance&lt;/span&gt; before dropping it. My favorite character died, and I
+  realized I didn't care enough about the others to see what happened to them. So we have that.&lt;/p&gt;</content><author><name>Matt Velez</name><email>matt@mattvelez.net</email></author><category term="Reviews" /><category term="fantasy" /><category term="reviews" /><category term="writing" /><summary type="html">One of the longer reviews I've written in recent memory. For a book with 1,000+ pages, it's fitting.</summary></entry></feed>

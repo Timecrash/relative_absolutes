@@ -1,0 +1,862 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Playing with NovelAI - Relative Absolutes</title>
+<meta name="description" content="Musings on AI art.">
+
+
+  <meta name="author" content="Matt Velez">
+  
+  <meta property="article:author" content="Matt Velez">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Relative Absolutes">
+<meta property="og:title" content="Playing with NovelAI">
+<meta property="og:url" content="https://mattvelez.net/general/playing-with-novelai">
+
+
+  <meta property="og:description" content="Musings on AI art.">
+
+
+
+
+
+  <meta name="twitter:site" content="@timecrash">
+  <meta name="twitter:title" content="Playing with NovelAI">
+  <meta name="twitter:description" content="Musings on AI art.">
+  <meta name="twitter:url" content="https://mattvelez.net/general/playing-with-novelai">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-12-20T00:00:00-05:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://mattvelez.net/general/playing-with-novelai">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://mattvelez.net/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Relative Absolutes Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Relative Absolutes
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags">Tags</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://mattvelez.net/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#general" itemprop="item"><span itemprop="name">General</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Playing with NovelAI</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/matt.jpg" alt="Matt Velez" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Matt Velez</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Raconteur.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Pennsylvania, USA</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://twitter.com/timecrash" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://wandering.shop/@timecrash" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/maserspark" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/timecrash" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:matt@mattvelez.net">
+            <meta itemprop="email" content="matt@mattvelez.net" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Playing with NovelAI">
+    <meta itemprop="description" content="Musings on AI art.">
+    <meta itemprop="datePublished" content="2022-12-20T00:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Playing with NovelAI
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-20T00:00:00-05:00">December 20, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><strong>NovelAI art is not a replacement for real artistic effort. Please support artists through commissioning them and boosting them when you can.</strong></p>
+
+<p>This is a bit of a popular topic these days, and one that until today, I didn’t look into much apart from vague distaste. I decided to play around with <a href="https://novelai.net/image">NovelAI’s image generation</a> this morning to get to know more about it. I have some thoughts. My usual instinct favors a Twitter/Mastodon thread, but I think I should give this blog some love. I also don’t want to imply this is going to cover every possible talking point or moral stance, it’s just an off-the-cuff post based on a couple hours of experience.</p>
+
+<p>First and foremost, I side with artists on this. I <em>deeply</em> respect and admire those who put hours, months, years of their lives onto their craft, constantly improving and expressing themselves. I do not for a moment think AI art could, or <em>should</em> replace them. I’ve been grateful to know many artists in my life, my girlfriend is one, and I’ve tried my hand at learning a couple times. It requires dedication, discipline, and a degree of earnestness common to any creative endeavor.</p>
+
+<p>That we have AI art this detailed and clean is an achievement of design and programming. I’m not denying that. The final pieces look pretty good! But these images are based off innumerable pieces of anime art harvested across the internet, and I imagine they weren’t given with the artist’s consent. That’s fucked up, and I don’t want to support continued development of these AI tools with these ethical considerations. I’ve thrown $10 into NovelAI to see how it worked. I don’t anticipate giving them more.</p>
+
+<p>A friend of mine discussed this in a Discord server, and she talked about how smugly malicious people can be toward artists, and how AI art should put them out of work. <em>Fuck no</em>. The pieces I generated, which I’ll show off throughout this post, look fine for my limited purposes, but they <em>categorically</em> pale in comparison to human effort. I want to continue commissioning artists to draw my characters, and all I want to use AI art for, all I think it <em>should</em> be used for, is <strong>to help spark inspiration for human artists</strong>. That’s it. They aren’t real work in and of themselves. They don’t replace years of effort.</p>
+
+<p>That out of the way, let me talk about my experience.</p>
+
+<hr />
+
+<p>I decided to generate art of an elven self-insert of mine, Safira. I’ve semi-jokingly called her my elfsona to a couple people, but that’s essentially what she is: an idealized fantasy of myself.</p>
+
+<p>On a related note, I’ve recently come out as a transwoman. Go figure.</p>
+
+<p>(I can do a whole separate post about her, but I don’t have a backstory or personality. She exists in a high fantasy setting of mine as a crystal/stellar mage. I’ve statted her up as an Astral Elf Abjuration Wizard in D&amp;D 5E, if that helps)</p>
+
+<p>I originally came up with a design in 2021, with an artist friend of mine I’ve known for over a decade (please <a href="https://karla-talisayan.com/">check her work out</a>, she’s one of the best artists I know). This took place over a few sessions, as I tried to come up with a design in real time, based off a few vague ideas. It came out pretty well! I wanted to use it as a base for further commissions (and also for vtubing, which I lost interest in, thankfully <em>before</em> I bought any expensive equipment/a Live2D avatar). But, I haven’t done much with it, and figured it’d be a good experiment to use for NovelAI.</p>
+
+<p>(I don’t intend to post it here, as I certainly don’t want it to be used as AI art fodder if this blog ends up getting scraped)</p>
+
+<figure class="">
+  <img src="/assets/images/2022/12/safira1.png" alt="Waist-up picture of the elven character Safira." /><figcaption>
+      One of the first images I generated of Safira, before I though to add the <code class="language-plaintext highlighter-rouge">full body</code> tag.
+
+    </figcaption></figure>
+
+<p>If you haven’t used it before, they first have you pay a monthly sub (the lowest is US$10 a month), which gives you 1000 credits (called ‘Anlas’ because of course it is). Each piece of AI art costs about 5 credits, with the price increasing depending on the complexity of the image. I set the AI to generate a tall portrait (512 x 1024), which cost 6 Anlas.</p>
+
+<p>You then fill out a query string of comma-separated tags, which inform the AI as to the kind of character you want. There are other settings you can tweak, as well as tweaking the final image, but I didn’t bother with those. You can also spend ~24 Anlas to generate variants of an image, which yielded some interesting results. I didn’t keep examples, however.</p>
+
+<p>The query string took a few tries to get right, but I found it was best to be as specific as possible. Every little thing I could think to put into the query helped with the final image. This is what I ended up with (in no particular order):</p>
+
+<pre><code class="language-csv">blue dress,gradient hair,purple hair,elf,dark skin,halter top,purple eyes,long hair,full body,over knee tights,long dress,mary janes,gold trim
+</code></pre>
+
+<p>And here’s how it turned out:</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/2022/12/safira3.png">
+          <img src="/assets/images/2022/12/safira3.png" alt="AI image of Safira, stepping forward." />
+      </a>
+    
+  
+    
+      <a href="/assets/images/2022/12/safira2.png">
+          <img src="/assets/images/2022/12/safira2.png" alt="AI image of Safira, clutching her arm." />
+      </a>
+    
+  
+    
+      <a href="/assets/images/2022/12/safira4.png">
+          <img src="/assets/images/2022/12/safira4.png" alt="AI image of Safira, sitting down." />
+      </a>
+    
+  
+  
+    <figcaption>Examples of Safira generated by NovelAI.
+</figcaption>
+  
+</figure>
+
+<p>I think they look pretty good for something generated in a few seconds. I don’t think these constitute the ‘real’ version of the character. They’re variations on a theme, put together by a blind, dumb machine. I could probably get even more granular, but I don’t much see the point.</p>
+
+<p>You’ll note the lack of backgrounds (save one image, further down). I’m sure I could try to have NovelAI generate them, but again, I don’t see the point. The more tags I add, the muddier the end result become. There’s definitely a sweet spot I think I’ve hit with Safira where I can reliably generate usable images. I’ll mention this again later, but sometimes NovelAI ignores some tags. I imagine Safira wearing tights on her arms (there’s a name for these, I don’t recall it), but I wasn’t able to get images with those.</p>
+
+<p>There’s a few clear traits here (long blue dress with gold trim, elf ears, purple hair and eyes, dark skin, tights, Mary Janes), but they’re just basic, without personality or flair. Sure, I can have the AI generate images of her in different clothes or a different hairstyle, but it’s essentially a novelty.</p>
+
+<figure class="">
+  <img src="/assets/images/2022/12/safiramaid.png" alt="AI image of Safira, wearing a maid dress." /><figcaption>
+      You know I had to do it (maid cosplay) to ‘em (her).
+
+    </figcaption></figure>
+
+<p>There isn’t a unified look to these; none have a noticable style. They’re about as bland and vapid as character art can be. There isn’t any soul in these, whereas my favorite artists have a strong sense of style. I can identify their work at a glance. Each one brims with effort and personality.</p>
+
+<p>To use my friend Karla as an example, her art is lush and complex, with lovely shadows and detailing. I’ve seen her work improve over the 14 years I’ve known her, and I can that progression clearly with older pieces I have from when we first met.</p>
+
+<p>Another example is my favorite Japanese artist, <a href="https://www.pixiv.net/en/users/4007933">lansane</a>. The work they put into designing so-called monstergirls is fascinating, and each one overflows with personality, particularly their poses and facial expressions. I’m excited to see each new work, all expressions of their creativity.</p>
+
+<p>I don’t think this is something AI art could ever accomplish. It can’t make those human decisions into lines, character details, poses. It can only copy what already exists.</p>
+
+<p>Maybe we’ll get to a point where an AI can make more original work, but after a certain point, I feel as if it’d become another artist, having become self-aware through increasingly complex programming and thought processes. Its creativity is increasingly indistinguishable from a human’s, but should exist alongside them, not replacing them.</p>
+
+<p>That’s an entirely different discussion, however.</p>
+
+<hr />
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/2022/12/safira5.png" title="That golen hem on the bottom really restricts her legs, doesn't it?">
+          <img src="/assets/images/2022/12/safira5.png" alt="AI image of Safira, wearing a shorter dress." />
+      </a>
+    
+  
+    
+      <a href="/assets/images/2022/12/safira6.png" title="The tights aren't black, and what the fuck is wrong with her hands?">
+          <img src="/assets/images/2022/12/safira6.png" alt="AI image of Safira, clutching her hands over her chest." />
+      </a>
+    
+  
+    
+      <a href="/assets/images/2022/12/safira7.png" title="I have no fucking idea how NovelAI came up with three legs.">
+          <img src="/assets/images/2022/12/safira7.png" alt="AI image of Safira, with three legs." />
+      </a>
+    
+  
+  
+    <figcaption>Other examples of Safira generated by NovelAI.
+</figcaption>
+  
+</figure>
+
+<p>What AI art does, what I think it’s best for, is provide examples of what Safira <em>could</em> look like. It’s a jumping off point, like a writing prompt. Something quick to give the artist an idea of how to draw her hair, her dress, her pose.</p>
+
+<p>Eventually, I’d like to build up a body of commissions to fully nail her design down. I want to support as many artist as I can, while also feeling the affirmation of seeing this idealized self depicted in a variety of artistic styles. AI art can help, but eventually I think I’d like to fill my Imgur reference folder with other commissions. Other examples of what this character looks like, with a finalized design (and maybe even a reference sheet).</p>
+
+<p>Obviously, every artist is going to want to put their own spin on the character, and I think AI art can help inspire little touches like that. But they’re too bland to be representative of how I think of the character.</p>
+
+<p>I’m pleased with these results, but I more look forward to using them to help craft a better-realized character. They aren’t a complete solution, merely a tool.</p>
+
+<p>Safira, however, is a pretty simple character design. I tried another character with a more complex design (one I don’t have art of, just a relatively detailed list of traits), and NovelAI didn’t generate anything I liked. I tried to be relatively granular, but I found it ignored a number of tags: the character has a red dress with a brown vest over it, but NovelAI kept ignoring the vest and only did a red dress. So, like I’ve said before, it’s good for very broad strokes of character design based of a few simple traits, but is no replacement for human creativity.</p>
+
+<p>A final note: I haven’t used NovelAI’s other main focus, AI-generated writing. There’s maybe a use-case there, but I don’t see myself needing it and aren’t interested in playing around with it.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#general" class="page__taxonomy-item" rel="tag">general</a><span class="sep">, </span>
+    
+      <a href="/tags/#musing" class="page__taxonomy-item" rel="tag">musing</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#general" class="page__taxonomy-item" rel="tag">General</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-12-20T00:00:00-05:00">December 20, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=timecrash&text=Playing+with+NovelAI%20https%3A%2F%2Fmattvelez.net%2Fgeneral%2Fplaying-with-novelai" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmattvelez.net%2Fgeneral%2Fplaying-with-novelai" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmattvelez.net%2Fgeneral%2Fplaying-with-novelai" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/general/an-update" class="pagination--pager" title="An Update
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/general/an-update" rel="permalink">An Update
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-09-01T00:00:00-04:00">September 1, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I ported the blog from WordPress to Jekyll! Also I’m writing more!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/gaming/thoughts-on-links-awakening" rel="permalink">Thoughts on Link’s Awakening
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-25T10:51:02-04:00">October 25, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  
+
+I beat Link's Awakening for the first time since I was a kid, via the lovely Switch port. It's consistently been one
+  of my favorite Zelda games, with ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/reviews/destroyer-a-review" rel="permalink">Destroyer: A Review
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2019-03-13T14:21:30-04:00">March 13, 2019</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  
+
+
+  
+
+
+  
+
+
+  
+
+I discovered Chris Fox through Instagram. I'm pretty sure it was Instagram. I found an ad for an eBook titled '5,000
+  Words Per Hour.' T...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/gaming/thoughts-on-popful-mail" rel="permalink">Thoughts on Popful Mail
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2017-02-20T11:14:48-05:00">February 20, 2017</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">So in the interests of writing something here, I thought I'd write a bit on a game I played recently, with a really
+  silly title. Popful Mail was released o...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/timecrash" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://wandering.shop/@timecrash" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/maserspark" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://github.com/timecrash" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Relative Absolutes. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
