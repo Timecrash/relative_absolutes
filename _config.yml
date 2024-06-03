@@ -1,29 +1,26 @@
 locale: "en-US"
 title: Relative Absolutes
 author:
-  name: Matt Velez
-  email: matt@mattvelez.net
-  avatar: /assets/images/matt.jpg
+  name: Valera Velez
+  email: valera@valera.moe
+  avatar: /assets/images/V'alera.png
   bio: Raconteur.
   location: Pennsylvania, USA
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/timecrash"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://wandering.shop/@timecrash"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/maserspark"
+    - label: "Cohost"
+      icon: "fa-solid fa-globe"
+      url: "https://cohost.org/valera"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/timecrash"
 description: >-
-  I'm Matt Velez, a writer currently living in the Philadelphia suburbs.
+  I'm Valera Velez, a writer currently living in the Philadelphia suburbs.
   Back in 2012, I figured out writing was a heck of a lot more fun than everyone let on, and I've been doing it ever since.
 baseurl: ""
-url: "https://mattvelez.net"
+url: "https://valera.ink"
 
 footer:
   links:
@@ -42,7 +39,7 @@ footer:
 
 # Build settings
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: mmistakes/minimal-mistakes@4.26.1
 minimal_mistakes_skin: neon
 repository: Timecrash/relative_absolutes
 permalink: /:categories/:title
@@ -63,8 +60,6 @@ whitelist:
   - jekyll-include-cache
 include:
   - CNAME
-twitter:
-  username: "timecrash"
 
 defaults:
   # _posts
