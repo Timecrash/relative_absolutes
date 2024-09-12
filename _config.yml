@@ -10,9 +10,12 @@ author:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://wandering.shop/@timecrash"
-    - label: "Cohost"
-      icon: "fa-solid fa-globe"
-      url: "https://cohost.org/valera"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/valera.moe"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/maserspark"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/timecrash"
@@ -24,12 +27,12 @@ url: "https://valera.ink"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/timecrash"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://wandering.shop/@timecrash"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/valera.moe"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/maserspark"
@@ -39,7 +42,7 @@ footer:
 
 # Build settings
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes@4.26.1
+remote_theme: mmistakes/minimal-mistakes@4.26.2
 minimal_mistakes_skin: neon
 repository: Timecrash/relative_absolutes
 permalink: /:categories/:title
