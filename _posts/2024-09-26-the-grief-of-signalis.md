@@ -11,7 +11,7 @@ tags:
 - signalis
 ---
 
-> This was originally a reply to a friend on a forum, but I decided to make it a post here. I love Signalis a lot! I probably have much more to say about it eventually.
+> This was originally a reply to a friend on a forum, but I decided to make it a post here. There are unmarked spoilers throughout, so be wary if you haven't played. I love Signalis a lot!
 
 Survival horror is, to me, a frustrating genre. So much of it is cheap, built on the backs of titles now 20, 30 years old. Many use these old tropes and mechanics to evoke feelings of nostalgia, without really understanding why they were used originally. Features are imported wholesale, given a fresh coat of paint, but their antecedents were born out of hardware limitations that no longer exist. What new innovations we get, through titles like Amnesia: The Dark Descent, Alien: Isolation, P.T. (all of those over a decade old, yeesh) are quickly copied.
 
